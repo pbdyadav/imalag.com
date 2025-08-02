@@ -274,7 +274,7 @@ const Products = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 onClick={() => {
-                  const message = "Hi! I'm interested in commissioning a custom artwork. Could you please share more details about the process?";
+                  const message = "Hi! I'm interested in commissioning a custom artwork. Could you please share more details about the process? My Name is: ...... and I am from: .....";
                   const whatsappUrl = `https://wa.me/919893137595?text=${encodeURIComponent(message)}`;
                   window.open(whatsappUrl, '_blank');
                 }}
