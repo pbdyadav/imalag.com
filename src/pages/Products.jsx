@@ -10,75 +10,111 @@ const Products = () => {
   const products = [
     {
       id: 1,
-      title: "Traditional Peacock Lippan Panel",
-      price: "₹3,500",
-      originalPrice: "₹4,200",
+      title: "Traditional Mandla Lippan",
+      price: "₹700",
+      originalPrice: "₹1,000",
       category: "Lippan Art",
-      size: "12\" x 16\"",
-      description: "Handcrafted peacock design with authentic mud and mirror work",
+      size: "12\" Circle",
+      description: "Beautiful design with intricate mirror work on Clay base",
       rating: 5,
       reviews: 12,
-      image: "Traditional peacock Lippan art panel with intricate mirror work and vibrant colors"
+      image: "/images/products/Art7.png"
     },
     {
       id: 2,
-      title: "Mandala Mirror Mosaic",
-      price: "₹2,800",
-      originalPrice: "₹3,200",
-      category: "Mirror Work",
-      size: "10\" x 10\"",
-      description: "Stunning circular mandala with colorful mirror pieces",
+      title: "White Lippan Art",
+      price: "₹700",
+      originalPrice: "₹1,000",
+      category: "Mosaic",
+      size: "12\" Circle",
+      description: "Stunning mandala pattern created with mirror pieces",
       rating: 5,
       reviews: 8,
-      image: "Beautiful mandala mirror mosaic with geometric patterns and colorful glass pieces"
+      image: "/images/products/Art8.png"
     },
     {
       id: 3,
-      title: "Elephant Family Lippan Art",
-      price: "₹4,500",
-      originalPrice: "₹5,000",
-      category: "Lippan Art",
-      size: "16\" x 20\"",
-      description: "Majestic elephant family with traditional Kutch patterns",
+      title: "Spiritual Buddha with Tree",
+      price: "₹1,100",
+      originalPrice: "₹1,800",
+      category: "MDF",
+      size: "14\" Circle",
+      description: "Spiritual Buddha with Tree and Mirror in Black colors",
       rating: 5,
       reviews: 15,
-      image: "Majestic elephant family Lippan art with traditional Kutch patterns and mirror details"
+      image: "/images/products/Art9.png"
     },
     {
       id: 4,
-      title: "Lotus Dot Mandala",
-      price: "₹2,200",
-      originalPrice: "₹2,800",
-      category: "Dot Painting",
-      size: "8\" x 8\"",
-      description: "Sacred lotus mandala created with precise dot technique",
+      title: "Clay Golder Tree",
+      price: "₹1,500",
+      originalPrice: "₹2,000",
+      category: "Clay",
+      size: "14\" Circle",
+      description: "Vibrant Clay work in Black and Gold colour artwork with traditional Indian motifs",
       rating: 4,
       reviews: 6,
-      image: "Sacred lotus mandala dot painting with precise technique and spiritual symbolism"
+      image: "/images/products/Art10.png"
     },
     {
       id: 5,
-      title: "Tree of Life Glass Panel",
+      title: "Black Buddha with Holo Light Efects",
       price: "₹3,800",
-      originalPrice: "₹4,500",
-      category: "Glass Work",
-      size: "14\" x 18\"",
-      description: "Contemporary tree of life design in stained glass",
+      originalPrice: "₹5,000",
+      category: "Lippan Art",
+      size: "17.5\" x 17.5\"",
+      description: "Majestic Black Buddha design with Holo Light Efects for Wall decoration",
       rating: 5,
       reviews: 10,
-      image: "Tree of life stained glass panel with contemporary design and traditional inspiration"
+      image: "/images/products/Art11.png"
     },
     {
       id: 6,
-      title: "Floral Mirror Mosaic Set",
-      price: "₹5,200",
-      originalPrice: "₹6,000",
-      category: "Mirror Work",
-      size: "Set of 3 (6\" x 6\" each)",
-      description: "Delicate floral patterns with shimmering mirror accents",
+      title: "Green Buddha with Holo Light Efects",
+      price: "₹3,800",
+      originalPrice: "₹5,000",
+      category: "Lippan",
+      size: "17.5\" x 17.5\"",
+      description: "Majestic Green Tree Buddha design with Holo Light Efects for Wall decoration",
       rating: 5,
       reviews: 9,
-      image: "Set of three floral mirror mosaic pieces with delicate patterns and shimmering accents"
+      image: "/images/products/Art12.png"
+    },
+    {
+      id: 7,
+      title: "Ornament Box",
+      price: "₹200",
+      originalPrice: "₹300",
+      category: "Glass",
+      size: "4\" x 4\"",
+      description: "MDF Ornament Box with glass work",
+      rating: 5,
+      reviews: 9,
+      image: "/images/products/Art13.png"
+    },
+    {
+      id: 8,
+      title: "Ornament Box",
+      price: "₹200",
+      originalPrice: "₹300",
+      category: "Glass",
+      size: "4\" x 4\"",
+      description: "MDF Ornament Box with glass work",
+      rating: 5,
+      reviews: 9,
+      image: "/images/products/Art14.png"
+    },
+    {
+      id: 9,
+      title: "Ornament Box",
+      price: "₹200",
+      originalPrice: "₹300",
+      category: "Glass",
+      size: "4\" x 4\"",
+      description: "MDF Ornament Box with glass work",
+      rating: 5,
+      reviews: 9,
+      image: "/images/products/Art15.png"
     }
   ];
 
@@ -131,10 +167,11 @@ const Products = () => {
               >
                 {/* Product Image */}
                 <div className="relative overflow-hidden">
-                  <img  
-                    className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                    alt={product.image}
-                   src="https://images.unsplash.com/photo-1635865165118-917ed9e20936" />
+                <img  
+  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+  alt={product.title}
+  src={product.image}
+/>
                   
                   {/* Wishlist Button */}
                   <button

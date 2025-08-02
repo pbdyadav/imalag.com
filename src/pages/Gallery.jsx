@@ -20,75 +20,75 @@ const Gallery = () => {
   const artworks = [
     {
       id: 1,
-      title: "Traditional Peacock Lippan",
+      title: "Traditional Mandla Lippan",
       category: "lippan",
-      description: "Beautiful peacock design with intricate mirror work on mud base",
-      src: "placeholder",
-      alt: "Traditional peacock Lippan art with colorful mirrors and mud work"
+      description: "Beautiful design with intricate mirror work on Clay base",
+      src: "Art7.png",
+      alt: "Traditional Mandla Lippan art with colorful mirrors and Clay work"
     },
     {
       id: 2,
-      title: "Mandala Mirror Mosaic",
+      title: "White Lippan Art",
       category: "mosaic",
-      description: "Stunning mandala pattern created with colorful mirror pieces",
-      src: "placeholder",
-      alt: "Intricate mandala mirror mosaic with geometric patterns"
+      description: "Stunning mandala pattern created with mirror pieces",
+      src: "Art8.png",
+      alt: "Intricate White Lippan Art with geometric patterns"
     },
     {
       id: 3,
-      title: "Spiritual Dot Painting",
-      category: "dot",
-      description: "Meditative dot work creating sacred geometric patterns",
-      src: "placeholder",
-      alt: "Spiritual dot painting with sacred geometric patterns and vibrant colors"
+      title: "Spiritual Buddha with Tree",
+      category: "MDF",
+      description: "Spiritual Buddha with Tree and Mirror in Black colors",
+      src: "Art9.png",
+      alt: "Spiritual Buddha with Tree and Mirror in Black colors"
     },
     {
       id: 4,
-      title: "Colorful Glass Mosaic",
-      category: "glass",
-      description: "Vibrant glass work with traditional motifs",
-      src: "placeholder",
-      alt: "Colorful glass mosaic artwork with traditional Indian motifs"
+      title: "Clay Golder Tree",
+      category: "Clay",
+      description: "ibrant Clay work in Black and Gold colour artwork with traditional Indian motifs",
+      src: "Art10.png",
+      alt: "Vibrant Clay work in Black and Gold colour artwork with traditional Indian motifs"
     },
     {
       id: 5,
-      title: "Elephant Lippan Art",
+      title: "Black Buddha with Holo Light Efects",
       category: "lippan",
-      description: "Majestic elephant design with traditional Kutch patterns",
-      src: "placeholder",
-      alt: "Majestic elephant Lippan art with traditional Kutch patterns and mirror work"
+      description: "Majestic Black Buddha design with Holo Light Efects for Wall decoration",
+      src: "Art11.png",
+      alt: "Majestic Buddha design with Holo Light Efects for Wall decoration"
     },
     {
       id: 6,
-      title: "Floral Mirror Work",
-      category: "mosaic",
-      description: "Delicate floral patterns with shimmering mirror accents",
-      src: "placeholder",
-      alt: "Delicate floral mirror work with shimmering accents and traditional patterns"
+      title: "Green Buddha with Holo Light Efects",
+      category: "Lippan",
+      description: "Majestic Green Tree Buddha design with Holo Light Efects for Wall decoration",
+      src: "Art12.png",
+      alt: "Majestic Green Tree Buddha design with Holo Light Efects for Wall decoration"
     },
     {
       id: 7,
-      title: "Lotus Dot Mandala",
-      category: "dot",
-      description: "Sacred lotus mandala created with precise dot technique",
-      src: "placeholder",
-      alt: "Sacred lotus mandala dot painting with precise technique and spiritual symbolism"
+      title: "Ornament Box",
+      category: "glass",
+      description: "MDF Ornament Box with glass work",
+      src: "Art13.png",
+      alt: "MDF Ornament Box with glass work"
     },
     {
       id: 8,
-      title: "Stained Glass Panel",
+      title: "Ornament Box",
       category: "glass",
-      description: "Contemporary stained glass with traditional inspiration",
-      src: "placeholder",
-      alt: "Contemporary stained glass panel with traditional Indian inspiration"
+      description: "MDF Ornament Box with glass work",
+      src: "Art14.png",
+      alt: "MDF Ornament Box with glass work"
     },
     {
       id: 9,
-      title: "Tree of Life Lippan",
-      category: "lippan",
-      description: "Symbolic tree of life with intricate branch patterns",
-      src: "placeholder",
-      alt: "Tree of life Lippan art with intricate branch patterns and mirror details"
+      title: "Ornament Box",
+      category: "glass",
+      description: "MDF Ornament Box with glass work",
+      src: "Art15.png",
+      alt: "MDF Ornament Box with glass work"
     }
   ];
 
@@ -179,11 +179,11 @@ const Gallery = () => {
                 onClick={() => openLightbox(index)}
               >
                 <div className="relative overflow-hidden rounded-2xl card-shadow hover-lift">
-                  <img  
-                    className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
-                    alt={artwork.alt}
-                   src="https://images.unsplash.com/photo-1611028389127-e0768635f03c" />
-                  
+                <img  
+  className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
+  alt={artwork.alt}
+  src={`/images/${artwork.src}`}
+/>                
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-6 text-white">

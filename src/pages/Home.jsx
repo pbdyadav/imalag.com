@@ -25,6 +25,24 @@ const Home = () => {
     }
   ];
 
+  const featuredArtworks = [
+    {
+      image: '/images/Moon Art Photo.jpg',
+      title: 'Traditional Lippan Art',
+      description: 'Handcrafted with love',
+    },
+    {
+      image: '/images/Lippan_wall_decor.jpg',
+      title: 'Mirror Mosaic Masterpiece',
+      description: 'Modern elegance with tradition',
+    },
+    {
+      image: '/images/DipYellow.jpeg',
+      title: 'Dot Work Design',
+      description: 'Fine details and texture',
+    },
+  ];
+
   return (
     <>
       <Helmet>
@@ -33,7 +51,7 @@ const Home = () => {
       </Helmet>
 
       <div className="min-h-screen">
-    {/* Hero Section */}
+        {/* Hero Section */}
     <section className="relative hero-pattern py-20 lg:py-32 overflow-hidden">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
@@ -194,29 +212,30 @@ const Home = () => {
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[1, 2, 3].map((item, index) => (
-                <motion.div
-                  key={item}
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.8, delay: index * 0.2 }}
-                  viewport={{ once: true }}
-                  className="group cursor-pointer"
-                >
-                  <div className="relative overflow-hidden rounded-2xl card-shadow hover-lift">
-                    <img  
-                      className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                      alt={`Featured Lippan artwork ${item} with traditional mirror work`}
-                     src="https://images.unsplash.com/photo-1572953228352-2bab510854ac" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <div className="absolute bottom-4 left-4 right-4 text-white">
-                        <h3 className="font-playfair text-lg font-semibold">Traditional Lippan Art</h3>
-                        <p className="text-sm opacity-90">Handcrafted with love</p>
-                      </div>
-                    </div>
-                  </div>
-                </motion.div>
-              ))}
+  {featuredArtworks.map((art, index) => (
+    <motion.div
+      key={index}
+      initial={{ opacity: 0, scale: 0.9 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.8, delay: index * 0.2 }}
+      viewport={{ once: true }}
+      className="group cursor-pointer"
+    >
+      <div className="relative overflow-hidden rounded-2xl card-shadow hover-lift">
+        <img  
+          className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+          alt={art.title}
+          src={art.image}
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div className="absolute bottom-4 left-4 right-4 text-white">
+            <h3 className="font-playfair text-lg font-semibold">{art.title}</h3>
+            <p className="text-sm opacity-90">{art.description}</p>
+          </div>
+        </div>
+      </div>
+    </motion.div>
+  ))}
             </div>
 
             <motion.div

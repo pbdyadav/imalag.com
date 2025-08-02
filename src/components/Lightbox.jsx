@@ -49,7 +49,7 @@ const Lightbox = ({ isOpen, onClose, images, currentIndex, onPrevious, onNext })
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.3 }}
-          src={currentImage.src}
+          src={`/images/${currentImage.src}`}
           alt={currentImage.alt}
           className="max-w-full max-h-full object-contain rounded-lg"
         />
