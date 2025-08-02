@@ -9,10 +9,12 @@ import About from '@/pages/About';
 import Gallery from '@/pages/Gallery';
 import Products from '@/pages/Products';
 import Contact from '@/pages/Contact';
+import ScrollToTop from '@/components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen flex flex-col gradient-bg">
         <Header />
         <main className="flex-1">
