@@ -29,7 +29,7 @@ const Gallery = () => {
     {
       id: 2,
       title: "White Lippan Art",
-      category: "mosaic",
+      category: "Lippan",
       description: "Stunning mandala pattern created with mirror pieces",
       src: "Art8.png",
       alt: "Intricate White Lippan Art with geometric patterns"
@@ -61,7 +61,7 @@ const Gallery = () => {
     {
       id: 6,
       title: "Green Buddha with Holo Light Efects",
-      category: "Lippan",
+      category: "lippan",
       description: "Majestic Green Tree Buddha design with Holo Light Efects for Wall decoration",
       src: "Art12.png",
       alt: "Majestic Green Tree Buddha design with Holo Light Efects for Wall decoration"
