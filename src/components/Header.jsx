@@ -1,18 +1,21 @@
-
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, ShoppingCart } from 'lucide-react';
+import { useCart } from '@/hooks/useCart';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
+  const { cartItems } = useCart(); // ✅ moved inside Header
+  const totalItems = cartItems.reduce((sum, item) => sum + item.quantity, 0);
 
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'About Lippan Art', path: '/about' },
     { name: 'Gallery', path: '/gallery' },
     { name: 'Products', path: '/products' },
+    { name: 'Shop', path: '/shop' },
     { name: 'Contact Us', path: '/contact' },
   ];
 
@@ -24,45 +27,55 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-  <img 
-    src="ALAG_Logo.png" 
-    alt="Archana Lippan Art Gallery Logo" 
-    className="h-35 sm:h-20 w-auto"
-  />
-  <div className="text-center">
-    <h1 className="font-playfair text-3xl font-bold text-terracotta">
-      Archana Lippan Art Gallery
-    </h1>
-    <p className="text-xl text-deep-brown/70">
-      Traditional Indian Art
-    </p>
-  </div>
-</Link>
+            <img 
+              src="ALAG_Logo.png" 
+              alt="Archana Lippan Art Gallery Logo" 
+              className="h-35 sm:h-20 w-auto"
+            />
+            <div className="text-center">
+              <h1 className="font-playfair text-3xl font-bold text-terracotta">
+                Archana Lippan Art Gallery
+              </h1>
+              <p className="text-xl text-deep-brown/70">
+                Traditional Indian Art
+              </p>
+            </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            {navItems.map((item) => (
-              <Link
-                key={item.name}
-                to={item.path}
-                className={`relative px-3 py-2 text-sm font-medium transition-colors duration-200 ${
-                  isActive(item.path)
-                    ? 'text-terracotta'
-                    : 'text-deep-brown hover:text-terracotta'
-                }`}
-              >
-                {item.name}
-                {isActive(item.path) && (
-                  <motion.div
-                    layoutId="activeTab"
-                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-terracotta"
-                    initial={false}
-                    transition={{ type: "spring", stiffness: 500, damping: 30 }}
-                  />
-                )}
-              </Link>
-            ))}
+          {navItems.map((item) => (
+  <Link
+    key={item.name}
+    to={item.path}
+    className={`relative px-3 py-2 text-sm font-medium transition-colors duration-200 ${
+      isActive(item.path)
+        ? 'text-terracotta'
+        : 'text-deep-brown hover:text-terracotta'
+    }`}
+  >
+    {item.name}
+    {isActive(item.path) && (
+      <motion.div
+        layoutId="activeTab"
+        className="absolute bottom-0 left-0 right-0 h-0.5 bg-terracotta"
+        initial={false}
+        transition={{ type: "spring", stiffness: 500, damping: 30 }}
+      />
+    )}
+  </Link>
+))}
           </nav>
+
+          {/* Cart Icon */}
+          <Link to="/cart" className="relative group ml-4">
+            <ShoppingCart size={28} className="text-deep-brown hover:text-terracotta transition" />
+            {totalItems > 0 && (
+              <span className="absolute -top-2 -right-2 bg-terracotta text-white text-xs rounded-full px-1.5 py-0.5">
+                {totalItems}
+              </span>
+            )}
+          </Link>
 
           {/* Mobile Menu Button */}
           <button
