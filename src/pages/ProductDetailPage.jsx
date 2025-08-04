@@ -10,6 +10,7 @@ const products = [
     image: '/images/products/Art7.png',
     description: 'Beautiful design with intricate mirror work on clay base.',
     size: '12" Circle',
+    stock: 1
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const products = [
     image: '/images/products/Art8.png',
     description: 'Stunning mandala pattern created with mirror pieces.',
     size: '12" Circle',
+    stock: 1
   },
   {
     id: 3,
@@ -26,6 +28,7 @@ const products = [
     image: '/images/products/Art9.png',
     description: 'Spiritual Buddha with tree and mirror in black colors.',
     size: '14" Circle',
+    stock: 1
   },
 ];
 
