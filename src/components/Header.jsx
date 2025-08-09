@@ -30,7 +30,7 @@ const Header = () => {
             <img 
               src="ALAG_Logo.png" 
               alt="Archana Lippan Art Gallery Logo" 
-              className="h-15 sm:h-10 w-auto"
+              className="h-10 sm:h-10 w-auto"
             />
             <div className="text-center">
               <h1 className="font-playfair text-2xl font-bold text-terracotta">
