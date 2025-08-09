@@ -41,7 +41,7 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a
-                href="mailto:info@archanalippanart.com"
+                href="mailto:imalagart@gmail.com"
                 className="p-2 bg-terracotta rounded-full hover:bg-terracotta/80 transition-colors"
               >
                 <Mail size={20} />
@@ -95,7 +95,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={16} className="text-gold" />
-                <span className="text-warm-beige/80">info@archanalippanart.com</span>
+                <span className="text-warm-beige/80">imalagart@gmail.com</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin size={16} className="text-gold mt-1" />

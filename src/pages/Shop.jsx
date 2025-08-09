@@ -5,7 +5,7 @@ import { useCart } from '@/hooks/useCart';
 const products = [
   {
     id: '1',
-    name: 'Handcrafted Lippan Mirror',
+    name: 'Traditional Mandla Lippan',
     price: 700,
     image: '/images/products/Art7.png',
   },
@@ -14,6 +14,42 @@ const products = [
     name: 'White Lippan Art',
     price: 700,
     image: '/images/products/Art8.png',
+  },
+  {
+    id: 3,
+    title: 'Spiritual Buddha with Tree',
+    price: 1100,
+    image: '/images/products/Art9.png',
+  },
+  {
+    id: 5,
+    title: 'Black Buddha with Holo Light Efects',
+    price: 3800,
+    image: '/images/products/Art11.png',
+  },
+  {
+    id: 6,
+    title: 'Green Buddha with Holo Light Efects',
+    price: 3800,
+    image: '/images/products/Art12.png',
+  },
+  {
+    id: 7,
+    title: 'Ornament Box',
+    price: 200,
+    image: '/images/products/Art13.png',
+  },
+  {
+    id: 8,
+    title: 'Ornament Box',
+    price: 200,
+    image: '/images/products/Art14.png',
+  },
+  {
+    id: 9,
+    title: 'Ornament Box',
+    price: 200,
+    image: '/images/products/Art15.png',
   },
 ];
 

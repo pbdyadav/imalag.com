@@ -66,13 +66,13 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6 text-terracotta" />,
       title: "Email",
-      details: "info@archanalippanart.com",
-      action: "mailto:info@archanalippanart.com"
+      details: "imalagart@gmail.com",
+      action: "mailto:imalagart@gmail.com"
     },
     {
       icon: <MapPin className="w-6 h-6 text-terracotta" />,
       title: "Location",
-      details: "Art Studio, Indore, MP",
+      details: "ALAG, 21/4, New Palasia, opp. Prince Laundry, Indore, MP - 452001",
       action: null
     }
   ];
@@ -252,7 +252,7 @@ const Contact = () => {
                   Visit Our Studio
                 </h3>
                 <p className="text-deep-brown/70 mb-4">
-                  Located in the heart of Indore, our studio welcomes art enthusiasts by appointment.
+                  Located in the heart of Indore, our 'ALAG' welcomes art enthusiasts by appointment.
                 </p>
                 
                 {/* Embedded Map */}

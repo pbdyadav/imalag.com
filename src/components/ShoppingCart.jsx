@@ -1,8 +1,15 @@
 import React from 'react';
 import { useCart } from '@/hooks/useCart';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const ShoppingCart = () => {
+  const navigate = useNavigate();
+  const [customerName, setCustomerName] = useState('');
+  const [customerEmail, setCustomerEmail] = useState('');
+  const [customerPhone, setCustomerPhone] = useState('');
+
   const { cartItems, removeFromCart, clearCart, increaseQty, decreaseQty } = useCart();
 
   const totalAmount = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
@@ -56,6 +63,41 @@ const ShoppingCart = () => {
 ))}
       </ul>
 
+      <div className="mt-8 space-y-4">
+  <div>
+  <label className="block text-sm font-medium text-deep-brown mb-1">Your Name</label>
+  <input
+    type="text"
+    value={customerName}
+    onChange={(e) => setCustomerName(e.target.value)}
+    placeholder="Enter your name"
+    className="w-full border border-gray-300 rounded px-4 py-2"
+    required
+    />
+  </div>
+  <div>
+    <label className="block text-sm font-medium text-deep-brown mb-1">Email Address</label>
+    <input
+      type="email"
+      value={customerEmail}
+      onChange={(e) => setCustomerEmail(e.target.value)}
+      placeholder="Enter your email"
+      className="w-full border border-gray-300 rounded px-4 py-2"
+      required
+    />
+  </div>
+  <div>
+    <label className="block text-sm font-medium text-deep-brown mb-1">Contact Number</label>
+    <input
+      type="tel"
+      value={customerPhone}
+      onChange={(e) => setCustomerPhone(e.target.value)}
+      placeholder="Enter your contact number"
+      className="w-full border border-gray-300 rounded px-4 py-2"
+      required
+    />
+  </div>
+</div>
       <div className="mt-8 flex justify-between items-center border-t pt-4">
         <h3 className="text-xl font-semibold text-deep-brown">Total: ₹{totalAmount.toLocaleString()}</h3>
         <div className="flex space-x-4">
@@ -65,12 +107,17 @@ const ShoppingCart = () => {
           >
             Clear Cart
           </button>
-          <Link
-            to="/success"
-            className="bg-terracotta text-white px-6 py-2 rounded hover:bg-terracotta-dark transition"
-          >
-            Checkout
-          </Link>
+          <button
+  onClick={() => {
+    localStorage.setItem('customer_name', customerName);
+    localStorage.setItem('customer_email', customerEmail);
+    localStorage.setItem('customer_phone', customerPhone);
+    navigate('/success');
+  }}
+  className="bg-terracotta text-white px-6 py-2 rounded hover:bg-terracotta-dark transition"
+>
+  Checkout
+</button>
         </div>
       </div>
     </div>
