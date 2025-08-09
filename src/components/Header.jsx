@@ -33,7 +33,7 @@ const Header = () => {
               className="h-10 sm:h-10 w-auto"
             />
             <div className="text-center">
-              <h1 className="font-playfair text-2xl font-bold text-terracotta">
+              <h1 className="font-playfair text-xl font-bold text-terracotta">
                 Archana Lippan Art Gallery
               </h1>
               <p className="text-xl text-deep-brown/70">
