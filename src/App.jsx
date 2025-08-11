@@ -27,10 +27,10 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/products" element={<Products />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/shop" element={<Shop />} />
+            {/* <Route path="/shop" element={<Shop />} /> */}
             <Route path="/product/:id" element={<ProductDetailPage />} />
             <Route path="/success" element={<Success />} />
-            <Route path="/cart" element={<ShoppingCart />} />
+            {/* <Route path="/cart" element={<ShoppingCart />} /> */}
           </Routes>
         </main>
         <Footer />
