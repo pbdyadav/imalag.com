@@ -54,14 +54,14 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6 text-terracotta" />,
       title: "Phone",
-      details: "+91 989313 67595",
-      action: "tel:+9198931367595"
+      details: "+91 98931 37595",
+      action: "tel:+919893137595"
     },
     {
       icon: <MessageCircle className="w-6 h-6 text-green-600" />,
       title: "WhatsApp",
-      details: "+91 989313 67595",
-      action: "https://wa.me/9198931367595"
+      details: "+91 98931 37595",
+      action: "https://wa.me/919893137595"
     },
     {
       icon: <Mail className="w-6 h-6 text-terracotta" />,
@@ -228,7 +228,7 @@ const Contact = () => {
                 
                 <div className="flex space-x-4">
                   <a
-                    href="https://wa.me/9198931367595"
+                    href="https://wa.me/919893137595"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition-colors"
