@@ -28,17 +28,14 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/products" element={<Products />} />
             <Route path="/contact" element={<Contact />} />
-<<<<<<< HEAD
             {/* <Route path="/shop" element={<Shop />} /> */}
             <Route path="/product/:id" element={<ProductDetailPage />} />
             <Route path="/success" element={<Success />} />
             {/* <Route path="/cart" element={<ShoppingCart />} /> */}
-=======
             <Route path="/shop" element={<UnderConstruction />} />
             <Route path="/product/:id" element={<ProductDetailPage />} />
             <Route path="/success" element={<Success />} />
             <Route path="/cart" element={<UnderConstruction />} />
->>>>>>> 27207ea4 (Added Google Maps iframe to Contact page)
           </Routes>
         </main>
         <Footer />
