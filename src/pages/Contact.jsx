@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet-async";
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -246,24 +246,19 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* Map */}
-              <div className="bg-white rounded-2xl p-8 card-shadow">
-                <h3 className="font-playfair text-xl font-bold text-deep-brown mb-4">
-                  Visit Our Studio
-                </h3>
-                <p className="text-deep-brown/70 mb-4">
-                  Located in the heart of Indore, our 'ALAG' welcomes art enthusiasts by appointment.
-                </p>
-                
-                {/* Embedded Map */}
-                <div className="w-full h-64 bg-terracotta/10 rounded-lg flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="w-12 h-12 text-terracotta mx-auto mb-2" />
-                    <p className="text-deep-brown font-medium">Indore, Madhya Pradesh</p>
-                    <p className="text-sm text-deep-brown/70">Interactive map coming soon</p>
-                  </div>
-                </div>
-              </div>
+             {/* Embedded Google Map */}
+        <div className="rounded-xl overflow-hidden shadow-lg">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230.0026290872506!2d75.88522759263556!3d22.726677814563452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fdb84eb8311b%3A0x1677ed667cfc5bf9!2sArchana%20Lippan%20Art%20Gallery!5e0!3m2!1sen!2sin!4v1755511481208!5m2!1sen!2sin"
+            width="100%"
+            height="400"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Archana Lippan Art Gallery Location"
+          />
+</div>
 
               {/* Quick Actions */}
               <div className="bg-terracotta text-white rounded-2xl p-8">

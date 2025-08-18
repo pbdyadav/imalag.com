@@ -51,30 +51,26 @@ const Success = () => {
 
         // Send email
         const templateParams = {
-          to_email: customerEmail,
-          customer_name: customerName,
-          customer_phone: customerPhone,
-          order_id: orderId,
-          order_items: formattedItemsString,
-          order_total: totalAmount,
+          to_email: customerEmail || "",
+          customer_name: customerName || "",
+          customer_phone: customerPhone || "",
+          order_id: orderId || "",
+          order_items: formattedItemsString || "",
+          order_total: totalAmount || ""
         };
           console.log("Template Params being sent:", templateParams);
-        emailjs.send(
-          'imalagart_gmail',
-          'template_ipkn5fu',
-          {
-            name: localStorage.getItem('customer_name'),
-            email: localStorage.getItem('customer_email'),
-            phone: localStorage.getItem('customer_phone'),
-          },
+          emailjs.send(
+            'imalagart_gmail', // Your service ID
+            'template_ipkn5fu', // Your template ID
+            templateParams, 
           '9Du31zMtfVSf4b5Lq' // replace with actual public key
           )
           .then((response) => {
-          console.log('SUCCESS!', response.status, response.text);
+            console.log('SUCCESS!', response.status, response.text);
           })
           .catch((err) => {
-          console.error('Order failed:', err);
-        });
+            console.error('Order failed:', err);
+          });
 
         clearCart();
         setSuccess(true);
