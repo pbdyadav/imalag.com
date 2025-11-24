@@ -1,4 +1,4 @@
-{/* import { useEffect } from "react";
+import { useEffect } from "react";
 
 export default function AdUnit() {
   useEffect(() => {
@@ -11,9 +11,9 @@ export default function AdUnit() {
     <ins className="adsbygoogle"
       style={{ display: "block", textAlign: "center", margin: "20px auto" }}
       data-ad-client="ca-pub-7180154058776132"
-      data-ad-slot="1234567890"
+      data-ad-slot="4424495588"
       data-ad-format="auto"
       data-full-width-responsive="true"
     ></ins>
   );
-} */}
+}
