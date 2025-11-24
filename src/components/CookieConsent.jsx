@@ -1,13 +1,16 @@
-// src/components/CookieConsent.jsx
 import React, { useEffect, useState } from 'react';
 
 export default function CookieConsent() {
-  const [accepted, setAccepted] = useState(() => {
-    try { return localStorage.getItem('cookieConsent') === '1'; } catch (e) { return false; }
-  });
+  const getCookie = (name) => {
+    return document.cookie.split('; ').find(row => row.startsWith(name + '='))?.split('=')[1];
+  };
+
+  const [accepted, setAccepted] = useState(() => getCookie('cookieConsent') === 'yes');
 
   useEffect(() => {
-    if (accepted) localStorage.setItem('cookieConsent', '1');
+    if (accepted) {
+      document.cookie = "cookieConsent=yes; path=/; domain=.imalag.com; max-age=31536000; Secure; SameSite=Lax";
+    }
   }, [accepted]);
 
   if (accepted) return null;

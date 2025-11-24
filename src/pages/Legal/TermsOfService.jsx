@@ -13,7 +13,7 @@ export default function TermsOfService() {
       </h2>
       <p>
         By accessing or using the website <strong>imalag.com</strong> (the
-        "Service") operated by Archana Lippan Art Gallery ("we","),
+        "Service") operated by Archana Lippan Art Gallery ("we", "us", or "our"),
         you agree to be bound by these Terms of Service. If you disagree with any
         part of the terms, then you may not access the Service.
       </p>
