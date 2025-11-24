@@ -2,15 +2,17 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.imalag.com" }],
-      "destination": "https://imalag.com/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "imalag.com"
+        }
+      ],
+      "destination": "https://www.imalag.com/:path*",
       "permanent": true
     }
   ],
   "rewrites": [
-    {
-      "source": "/:path*",
-      "destination": "/index.html"
-    }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
