@@ -1,0 +1,12 @@
+{
+  "redirects": [
+    {
+      "source": "https://www.imalag.com/:path*",
+      "destination": "https://imalag.com/:path*",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
