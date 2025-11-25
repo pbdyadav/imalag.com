@@ -209,12 +209,12 @@ const About = () => {
     {
       title: "Traditional Lippan Work",
       description: "Authentic mud and mirror work using traditional techniques and patterns passed down through generations.",
-      image: "/images/products/a1.png"
+      image: "/images/products/WG.png"
     },
     {
       title: "Glass Mosaic Work",
       description: "Beautiful glass mosaic designs that create stunning visual effects with light and color.",
-      image: "/images/products/a2.png"
+      image: "/images/products/a1.png"
     },
     {
       title: "Dot Painting",
