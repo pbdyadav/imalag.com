@@ -68,6 +68,22 @@ const Gallery = () => {
     },
     {
       id: 7,
+      title: "Lippan Art work as per Clint",
+      category: "lippan",
+      description: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall.",
+      src: "Lippan Art work for Clint.jpg",
+      alt: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall."
+    },
+    {
+      id: 8,
+      title: "Lippan Art work as per Clint",
+      category: "lippan",
+      description: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall.",
+      src: "Lippan Art work for Clint2.jpg",
+      alt: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall."
+    },
+    {
+      id: 10,
       title: "Ornament Box",
       category: "glass",
       description: "MDF Ornament Box with glass work",
@@ -75,7 +91,7 @@ const Gallery = () => {
       alt: "MDF Ornament Box with glass work"
     },
     {
-      id: 8,
+      id: 11,
       title: "Ornament Box",
       category: "glass",
       description: "MDF Ornament Box with glass work",
@@ -83,7 +99,7 @@ const Gallery = () => {
       alt: "MDF Ornament Box with glass work"
     },
     {
-      id: 9,
+      id: 12,
       title: "Ornament Box",
       category: "glass",
       description: "MDF Ornament Box with glass work",

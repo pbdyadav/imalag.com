@@ -56,6 +56,24 @@ const products = [
       },
       {
         id: 7,
+        title: "Lippan Art work as per Clint",
+        price: 2500,
+        image: "/images/products/Lippan Art work for Clint.jpg",
+        description: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall.",
+        size: '17.5 X 17.5" Circle',
+        stock: 5
+      },
+      {
+        id: 8,
+        title: "Lippan Art work as per Clint2",
+        price: 2500,
+        image: "/images/products/Lippan Art work for Clint2.jpg",
+        description: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall.",
+        size: '17.5 X 17.5" Circle',
+        stock: 5
+      },
+      {
+        id: 10,
         title: "Ornament Box",
         price: 200,
         image: "/images/products/Art13.png",
@@ -64,7 +82,7 @@ const products = [
         stock: 5
       },
       {
-        id: 8,
+        id: 11,
         title: "Ornament Box",
         price: 200,
         image: "/images/products/Art14.png",
@@ -73,7 +91,7 @@ const products = [
         stock: 5
       },
       {
-        id: 9,
+        id: 12,
         title: "Ornament Box",
         price: "200",
         originalPrice: "300",
@@ -88,12 +106,12 @@ const products = [
     {
     id: 100,
     title: "Round/Circle Shape Glass mirrors for Lippan Art / Mandala Art ",
-    price: "₹90",
+    price: "₹99",
     originalPrice: "₹150",
     category: "Glass",
     mirrorSizeRange: "8mm to 20mm (Mixed Sizes)", 
-    weight: "50 grams (Approx. 200 pcs)", 
-    pricePer100g: "₹180", 
+    weight: "100 grams (Approx. 200 pcs)", 
+    pricePer200g: "₹180", 
     packageDimensions: "5 cm x 5 cm x 1 cm",     
     description: "Enhance your creative projects with these premium-quality circle-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you're designing wall panels, decorative frames, or handcrafted home décor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.",
     rating: 5,
@@ -113,10 +131,13 @@ const products = [
   {
     id: 101,
     title: "Square Shape Glass Mirrors for Lippan Art / Mandala Art",
-    price: "₹90",
+    price: "₹99",
     originalPrice: "₹150",
     category: "Glass",
-    size: "8mm to 20mm",
+    mirrorSizeRange: "8mm to 20mm (Mixed Sizes)", 
+    weight: "100 grams (Approx. 200 pcs)", 
+    pricePer200g: "₹180", 
+    packageDimensions: "5 cm x 5 cm x 1 cm", 
     description: "Enhance your creative projects with these premium-quality Square-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you're designing wall panels, decorative frames, or handcrafted home décor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.",
     rating: 5,
     reviews: 5,
@@ -135,10 +156,13 @@ const products = [
   {
     id: 102,
     title: "Drop/Tilak Shape Mirror Silver Glass",
-    price: "₹90",
+    price: "₹99",
     originalPrice: "₹150",
     category: "Glass",
-    size: "8mm to 20mm",
+    mirrorSizeRange: "8mm to 20mm (Mixed Sizes)", 
+    weight: "100 grams (Approx. 200 pcs)", 
+    pricePer200g: "₹180", 
+    packageDimensions: "5 cm x 5 cm x 1 cm", 
     description: "Enhance your creative projects with these premium-quality Drop/Tilak-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you're designing wall panels, decorative frames, or handcrafted home décor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.",
     rating: 5,
     reviews: 5,
@@ -157,10 +181,13 @@ const products = [
   {
     id: 103,
     title: "Rectangle Shape Mirror Silver Glass",
-    price: "₹90",
+    price: "₹99",
     originalPrice: "₹150",
     category: "Glass",
-    size: "8mm to 20mm",
+    mirrorSizeRange: "8mm to 20mm (Mixed Sizes)", 
+    weight: "100 grams (Approx. 200 pcs)", 
+    pricePer200g: "₹180", 
+    packageDimensions: "5 cm x 5 cm x 1 cm", 
     description: "Enhance your creative projects with these premium-quality Drop/Tilak-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you're designing wall panels, decorative frames, or handcrafted home décor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.",
      rating: 5,
     reviews: 5,
@@ -179,13 +206,13 @@ const products = [
   {
     id: 104,
     title: "Life Shape Mirror Silver Glass",
-    price: "₹90",
+    price: "₹99",
     originalPrice: "₹150",
     category: "Glass",
     mirrorSizeRange: "8mm to 20mm (Mixed Sizes)", 
-    weight: "50 grams (Approx. 200 pcs)", 
-    pricePer100g: "₹180", 
-    packageDimensions: "5 cm x 5 cm x 1 cm",     
+    weight: "100 grams (Approx. 200 pcs)", 
+    pricePer200g: "₹180", 
+    packageDimensions: "5 cm x 5 cm x 1 cm",      
     description: "Enhance your creative projects with these premium-quality Life-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you're designing wall panels, decorative frames, or handcrafted home décor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.",
     ating: 5,
     reviews: 5,
@@ -204,12 +231,12 @@ const products = [
   {
     id: 105,
     title: "Triangle Shape Mirror Silver Glass",
-    price: "₹90",
+    price: "₹99",
     originalPrice: "₹150",
     category: "Glass",
     mirrorSizeRange: "8mm to 20mm (Mixed Sizes)", 
-    weight: "50 grams (Approx. 200 pcs)", 
-    pricePer100g: "₹180", 
+    weight: "100 grams (Approx. 200 pcs)", 
+    pricePer200g: "₹180", 
     packageDimensions: "5 cm x 5 cm x 1 cm",     
     description: "Enhance your creative projects with these premium-quality Triangle-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you're designing wall panels, decorative frames, or handcrafted home décor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.",
     ating: 5,
@@ -218,6 +245,81 @@ const products = [
     images: [
       "/images/products/TryShapeMirror.png",
       "/images/products/TryShapeMirrorH.png"
+    ],
+    features: [
+      "High-quality silver glass mirrors",
+      "Perfect for Lippan and Mandala art",
+      "Durable and long-lasting",
+      "Easy to apply on any surface"
+    ]
+  },
+  {
+    id: 106,
+    title: "Rhombus/diamond Shape Mirror Silver Glass",
+    price: "₹99",
+    originalPrice: "₹150",
+    category: "Glass",
+    mirrorSizeRange: "8mm to 20mm (Mixed Sizes)", 
+    weight: "100 grams (Approx. 200 pcs)", 
+    pricePer200g: "₹180", 
+    packageDimensions: "5 cm x 5 cm x 1 cm",   
+    description: "Enhance your creative projects with these premium-quality Rhombus/Diamond-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you're designing wall panels, decorative frames, or handcrafted home décor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.",
+    ating: 5,
+    reviews: 5,
+    image: "/images/products/DimShapeMirror.png",
+    images: [
+      "/images/products/DimShapeMirror.png",
+      "/images/products/DimShapeMirrorH.png"
+    ],
+    features: [
+      "High-quality silver glass mirrors",
+      "Perfect for Lippan and Mandala art",
+      "Durable and long-lasting",
+      "Easy to apply on any surface"
+    ]
+  },
+  {
+    id: 107,
+    title: "Half Moon Shape Mirror Silver Glass",
+    price: "₹99",
+    originalPrice: "₹150",
+    category: "Glass",
+    mirrorSizeRange: "8mm to 20mm (Mixed Sizes)", 
+    weight: "100 grams (Approx. 200 pcs)", 
+    pricePer200g: "₹180", 
+    packageDimensions: "5 cm x 5 cm x 1 cm",    
+    description: "Enhance your creative projects with these premium-quality Half Moon-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you're designing wall panels, decorative frames, or handcrafted home décor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.",
+    ating: 5,
+    reviews: 5,
+    image: "/images/products/HMoonShapeMirror.png",
+    images: [
+      "/images/products/HMoonShapeMirror.png",
+      "/images/products/HMoonShapeMirrorH.png"
+    ],
+    features: [
+      "High-quality silver glass mirrors",
+      "Perfect for Lippan and Mandala art",
+      "Durable and long-lasting",
+      "Easy to apply on any surface"
+    ]
+  },
+  {
+    id: 108,
+    title: "Long Drop/Tilak Shape Mirror Silver Glass",
+    price: "₹99",
+    originalPrice: "₹150",
+    category: "Glass",
+    mirrorSizeRange: "8mm to 20mm (Mixed Sizes)", 
+    weight: "100 grams (Approx. 200 pcs)", 
+    pricePer200g: "₹180", 
+    packageDimensions: "5 cm x 5 cm x 1 cm",     
+    description: "Enhance your creative projects with these premium-quality Half Long Drop/Tilak-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you're designing wall panels, decorative frames, or handcrafted home décor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.",
+    ating: 5,
+    reviews: 5,
+    image: "/images/products/LTikaShapeMirror.png",
+    images: [
+      "/images/products/LTikaShapeMirror.png",
+      "/images/products/LTikaShapeMirrorH.png"
     ],
     features: [
       "High-quality silver glass mirrors",
