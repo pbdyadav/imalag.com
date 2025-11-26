@@ -71,15 +71,15 @@ const Gallery = () => {
       title: "Lippan Art work as per Clint",
       category: "lippan",
       description: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall.",
-      src: "Lippan Art work for Clint.jpg",
+      src: "products/Lippan Art work for Clint.jpg",
       alt: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall."
     },
     {
       id: 8,
-      title: "Lippan Art work as per Clint",
+      title: "Lippan Art work as per Clint2",
       category: "lippan",
       description: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall.",
-      src: "Lippan Art work for Clint2.jpg",
+      src: "products/Lippan Art work for Clint2.jpg",
       alt: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall."
     },
     {

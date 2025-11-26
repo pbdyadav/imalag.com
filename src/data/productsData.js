@@ -55,23 +55,43 @@ const products = [
         stock: 5
       },
       {
-        id: 7,
-        title: "Lippan Art work as per Clint",
-        price: 2500,
-        image: "/images/products/Lippan Art work for Clint.jpg",
-        description: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall.",
-        size: '17.5 X 17.5" Circle',
-        stock: 5
-      },
+    id: 7,
+    title: "Lippan Art Work as Per Clint ",
+    price: "2,500",
+    originalPrice: "₹3,500",
+    category: "Lippan",   
+    description: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall.",
+    image: "/images/products/Lippan Art work for Clint.jpg",
+    images: [
+      "/images/products/Lippan Art work for Clint.jpg",
+      "/images/products/Lippan Art work for ClintO.jpg"
+    ],
+    features: [
+      "High-quality silver glass mirrors",
+      "Perfect for Lippan and Mandala art",
+      "Durable and long-lasting",
+      "Easy to apply on any surface"
+    ]
+  },
       {
-        id: 8,
-        title: "Lippan Art work as per Clint2",
-        price: 2500,
-        image: "/images/products/Lippan Art work for Clint2.jpg",
-        description: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall.",
-        size: '17.5 X 17.5" Circle',
-        stock: 5
-      },
+    id: 8,
+    title: "Lippan Art Work as Per Clint 2 ",
+    price: "2,500",
+    originalPrice: "₹3,500",
+    category: "Lippan",   
+    description: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall.",
+    image: "/images/products/Lippan Art work for Clint2.jpg",
+    images: [
+      "/images/products/Lippan Art work for Clint2.jpg",
+      "/images/products/Lippan Art work for Clint2O.jpg"
+    ],
+    features: [
+      "High-quality silver glass mirrors",
+      "Perfect for Lippan and Mandala art",
+      "Durable and long-lasting",
+      "Easy to apply on any surface"
+    ]
+  },
       {
         id: 10,
         title: "Ornament Box",

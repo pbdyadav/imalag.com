@@ -71,6 +71,34 @@ const products = [
     reviews: 9,
     image: "/images/products/Art12.png"
   },
+   {
+    id: 7,
+    title: "Lippan Art work as per Clint",
+    price: "₹2,500",
+    originalPrice: "₹3,500",
+    category: "Lippan Art",
+    size: '1 Feet x 1.5 Feet',
+    description: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall.",
+    rating: 5,
+    reviews: 9,
+    image: "/images/products/Lippan Art work for Clint.jpg",
+    images: [
+      "/images/products/Lippan Art work for Clint.jpg",
+      "/images/products/Lippan Art work for ClintO.jpg",
+    ],
+  },
+  {
+    id: 8,
+    title: "Lippan Art work as per Clint2",
+    price: "₹2,500",
+    originalPrice: "₹3,500",
+    category: "Lippan Art",
+    size: '1 Feet x 1.5 Feet',
+    description: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall.",
+    rating: 5,
+    reviews: 9,
+    image: "/images/products/Lippan Art work for Clint2.jpg"
+  },
   {
     id: 10,
     title: "Ornament Box",
