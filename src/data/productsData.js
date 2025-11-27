@@ -154,8 +154,8 @@ const products = [
       {
     id: 96,
     title: "MDF Art Box 12 X 12 Inch - Perfect Base for Creative Projects ",
-    price: "₹160",
-    originalPrice: "₹240",
+    price: "₹220",
+    originalPrice: "₹350",
     category: "MDF",
     size: '12" x 12"',
     weight: "180 grams",    
