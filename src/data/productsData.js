@@ -151,6 +151,106 @@ const products = [
         image: "/images/products/Art15.png",
         stock: 5
       },
+      {
+    id: 96,
+    title: "MDF Art Box 12 X 12 Inch - Perfect Base for Creative Projects ",
+    price: "₹160",
+    originalPrice: "₹240",
+    category: "MDF",
+    size: '12" x 12"',
+    weight: "180 grams",    
+    description: "Create stunning handcrafted masterpieces with this high-quality 6 X 6 inch MDF box, specially designed for Lippan art, mirror mosaic, dot painting, decoupage, mandala work, and mixed-media designs. Made from durable, smooth-finish MDF wood, this box provides a strong and steady surface for detailed artwork while giving a premium look to the final product. Ideal for jewelry storage, gift packaging, home décor, and customized art pieces, this box is perfect for artists, hobbyists, and creators who want to transform simple wood into beautiful, functional art.",
+    rating: 5,
+    reviews: 5,
+    image: "/images/products/MDF 4X4 Inch Box4.png",
+    images: [
+      "/images/products/MDF 4X4 Inch Box1.png",
+      "/images/products/MDF 4X4 Inch Box2.png",
+      "/images/products/MDF 4X4 Inch Box3.png",
+      "/images/products/MDF 4X4 Inch Box4.png"
+    ],
+    features: [
+      "High-quality MDF Art Box",
+      "Perfect for Lippan and Mandala art",
+      "Durable and long-lasting",
+      "Perfect Base for Creative Projects"
+    ]
+  },
+      {
+    id: 97,
+    title: "MDF Art Box 9.5 X 12 Inch - Perfect Base for Creative Projects ",
+    price: "₹160",
+    originalPrice: "₹240",
+    category: "MDF",
+    size: '9.5" x 12"',
+    weight: "110 grams",    
+    description: "Create stunning handcrafted masterpieces with this high-quality 6 X 6 inch MDF box, specially designed for Lippan art, mirror mosaic, dot painting, decoupage, mandala work, and mixed-media designs. Made from durable, smooth-finish MDF wood, this box provides a strong and steady surface for detailed artwork while giving a premium look to the final product. Ideal for jewelry storage, gift packaging, home décor, and customized art pieces, this box is perfect for artists, hobbyists, and creators who want to transform simple wood into beautiful, functional art.",
+    rating: 5,
+    reviews: 5,
+    image: "/images/products/MDF 4X4 Inch Box4.png",
+    images: [
+      "/images/products/MDF 4X4 Inch Box1.png",
+      "/images/products/MDF 4X4 Inch Box2.png",
+      "/images/products/MDF 4X4 Inch Box3.png",
+      "/images/products/MDF 4X4 Inch Box4.png"
+    ],
+    features: [
+      "High-quality MDF Art Box",
+      "Perfect for Lippan and Mandala art",
+      "Durable and long-lasting",
+      "Perfect Base for Creative Projects"
+    ]
+  },
+      {
+    id: 98,
+    title: "MDF Art Box 8 X 8 Inch - Perfect Base for Creative Projects ",
+    price: "₹120",
+    originalPrice: "₹200",
+    category: "MDF",
+    size: '8" x 8"',
+    weight: "100 grams",    
+    description: "Create stunning handcrafted masterpieces with this high-quality 6 X 6 inch MDF box, specially designed for Lippan art, mirror mosaic, dot painting, decoupage, mandala work, and mixed-media designs. Made from durable, smooth-finish MDF wood, this box provides a strong and steady surface for detailed artwork while giving a premium look to the final product. Ideal for jewelry storage, gift packaging, home décor, and customized art pieces, this box is perfect for artists, hobbyists, and creators who want to transform simple wood into beautiful, functional art.",
+    rating: 5,
+    reviews: 5,
+    image: "/images/products/MDF 4X4 Inch Box4.png",
+    images: [
+      "/images/products/MDF 4X4 Inch Box1.png",
+      "/images/products/MDF 4X4 Inch Box2.png",
+      "/images/products/MDF 4X4 Inch Box3.png",
+      "/images/products/MDF 4X4 Inch Box4.png"
+    ],
+    features: [
+      "High-quality MDF Art Box",
+      "Perfect for Lippan and Mandala art",
+      "Durable and long-lasting",
+      "Perfect Base for Creative Projects"
+    ]
+  },
+      {
+    id: 99,
+    title: "MDF Art Box 6 X 6 Inch - Perfect Base for Creative Projects ",
+    price: "₹90",
+    originalPrice: "₹120",
+    category: "MDF",
+    size: '6" x 6"',
+    weight: "100 grams",    
+    description: "Create stunning handcrafted masterpieces with this high-quality 6 X 6 inch MDF box, specially designed for Lippan art, mirror mosaic, dot painting, decoupage, mandala work, and mixed-media designs. Made from durable, smooth-finish MDF wood, this box provides a strong and steady surface for detailed artwork while giving a premium look to the final product. Ideal for jewelry storage, gift packaging, home décor, and customized art pieces, this box is perfect for artists, hobbyists, and creators who want to transform simple wood into beautiful, functional art.",
+    rating: 5,
+    reviews: 5,
+    image: "/images/products/MDF 4X4 Inch Box4.png",
+    images: [
+      "/images/products/MDF 4X4 Inch Box1.png",
+      "/images/products/MDF 4X4 Inch Box2.png",
+      "/images/products/MDF 4X4 Inch Box3.png",
+      "/images/products/MDF 4X4 Inch Box4.png"
+    ],
+    features: [
+      "High-quality MDF Art Box",
+      "Perfect for Lippan and Mandala art",
+      "Durable and long-lasting",
+      "Perfect Base for Creative Projects"
+    ]
+  },
     {
     id: 100,
     title: "Round/Circle Shape Glass mirrors for Lippan Art / Mandala Art ",
