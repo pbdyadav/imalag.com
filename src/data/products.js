@@ -100,6 +100,22 @@ const products = [
     image: "/images/products/Lippan Art work for Clint2.jpg"
   },
   {
+    id: 9,
+    title: "Moon Lippan Art Handcrafted",
+    price: "₹4,500",
+    originalPrice: "₹5,500",
+    category: "Lippan Art",
+    size: '18" x 18"',
+    description: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home décor, and adding a touch of traditional Indian elegance to any wall.",
+    rating: 5,
+    reviews: 9,
+    image: "/images/Moon Art Photo.jpg",
+    images: [
+      "/images/Moon Art Photo.jpg",
+      "/images/Moon Art Photo.jpg",
+    ],
+  },
+  {
     id: 10,
     title: "Ornament Box",
     price: "₹200",
