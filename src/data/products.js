@@ -57,19 +57,27 @@ const products = [
     description: "Majestic Black Buddha design with Holo Light Efects for Wall decoration",
     rating: 5,
     reviews: 10,
-    image: "/images/products/Art11.png"
+    image: "/images/products/Art11A.png"
   },
   {
     id: 6,
     title: "Green Buddha with Holo Light Efects",
     price: "₹3,800",
-    originalPrice: "₹5,000",
-    category: "Lippan Art",
-    size: '17.5" x 17.5"',
-    description: "Majestic Green Tree Buddha design with Holo Light Efects for Wall decoration",
-    rating: 5,
-    reviews: 9,
-    image: "/images/products/Art12.png"
+    originalPrice: "₹4,500",
+    category: "Lippan",   
+    size: '18" x 18"',
+    description: "Majestic Green Tree Buddha design with Holo Light Efects for Wall decoration.",
+    image: "/images/products/Art12A.png",
+    images: [
+      "/images/products/Art12A.png",
+      "/images/products/Art12.png",
+    ],
+    features: [
+      "High-quality Green Buddha - Resin, Mirrors, with Back Light",
+      "Perfect for Lippan and Wall art",
+      "Durable and long-lasting",
+      "Easy to hang on any wall surface"
+    ]
   },
    {
     id: 7,
