@@ -13,7 +13,7 @@ const Gallery = () => {
     { id: 'all', name: 'All Artworks' },
     { id: 'lippan', name: 'Lippan Work' },
     { id: 'mosaic', name: 'Mirror Mosaic' },
-    { id: 'dot', name: 'Dot Work' },
+    // { id: 'dot', name: 'Dot Work' },
     { id: 'glass', name: 'Glass Work' }
   ];
 
@@ -22,16 +22,17 @@ const Gallery = () => {
       id: 1,
       title: "Traditional Mandla Lippan",
       category: "lippan",
+
       description: "Beautiful design with intricate mirror work on Clay base",
-      src: "Art7.png",
+      src: "products/Art7.png",
       alt: "Traditional Mandla Lippan art with colorful mirrors and Clay work"
     },
     {
       id: 2,
       title: "White Lippan Art",
-      category: "Lippan",
+      category: "mosaic",
       description: "Stunning mandala pattern created with mirror pieces",
-      src: "Art8.png",
+      src: "products/Art8.png",
       alt: "Intricate White Lippan Art with geometric patterns"
     },
     {
@@ -39,7 +40,7 @@ const Gallery = () => {
       title: "Spiritual Buddha with Tree",
       category: "MDF",
       description: "Spiritual Buddha with Tree and Mirror in Black colors",
-      src: "Art9.png",
+      src: "products/Art9.png",
       alt: "Spiritual Buddha with Tree and Mirror in Black colors"
     },
     {
@@ -47,7 +48,7 @@ const Gallery = () => {
       title: "Clay Golder Tree",
       category: "Clay",
       description: "ibrant Clay work in Black and Gold colour artwork with traditional Indian motifs",
-      src: "Art10.png",
+      src: "products/Art10.png",
       alt: "Vibrant Clay work in Black and Gold colour artwork with traditional Indian motifs"
     },
     {
@@ -55,7 +56,7 @@ const Gallery = () => {
       title: "Black Buddha with Holo Light Efects",
       category: "lippan",
       description: "Majestic Black Buddha design with Holo Light Efects for Wall decoration",
-      src: "Art11.png",
+      src: "products/Art11A.png",
       alt: "Majestic Buddha design with Holo Light Efects for Wall decoration"
     },
     {
@@ -63,7 +64,7 @@ const Gallery = () => {
       title: "Green Buddha with Holo Light Efects",
       category: "lippan",
       description: "Majestic Green Tree Buddha design with Holo Light Efects for Wall decoration",
-      src: "Art12.png",
+      src: "products/Art12A.png",
       alt: "Majestic Green Tree Buddha design with Holo Light Efects for Wall decoration"
     },
     {
@@ -95,7 +96,7 @@ const Gallery = () => {
       title: "Ornament Box",
       category: "glass",
       description: "MDF Ornament Box with glass work",
-      src: "Art13.png",
+      src: "products/Art13.png",
       alt: "MDF Ornament Box with glass work"
     },
     {
@@ -103,7 +104,7 @@ const Gallery = () => {
       title: "Ornament Box",
       category: "glass",
       description: "MDF Ornament Box with glass work",
-      src: "Art14.png",
+      src: "products/Art14.png",
       alt: "MDF Ornament Box with glass work"
     },
     {
@@ -111,13 +112,13 @@ const Gallery = () => {
       title: "Ornament Box",
       category: "glass",
       description: "MDF Ornament Box with glass work",
-      src: "Art15.png",
+      src: "products/Art15.png",
       alt: "MDF Ornament Box with glass work"
     }
   ];
 
-  const filteredArtworks = selectedCategory === 'all' 
-    ? artworks 
+  const filteredArtworks = selectedCategory === 'all'
+    ? artworks
     : artworks.filter(artwork => artwork.category === selectedCategory);
 
   const openLightbox = (index) => {
@@ -130,13 +131,13 @@ const Gallery = () => {
   };
 
   const goToPrevious = () => {
-    setCurrentImageIndex((prev) => 
+    setCurrentImageIndex((prev) =>
       prev === 0 ? filteredArtworks.length - 1 : prev - 1
     );
   };
 
   const goToNext = () => {
-    setCurrentImageIndex((prev) => 
+    setCurrentImageIndex((prev) =>
       prev === filteredArtworks.length - 1 ? 0 : prev + 1
     );
   };
@@ -176,11 +177,10 @@ const Gallery = () => {
               <button
                 key={category.id}
                 onClick={() => setSelectedCategory(category.id)}
-                className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
-                  selectedCategory === category.id
+                className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${selectedCategory === category.id
                     ? 'bg-terracotta text-white shadow-lg'
                     : 'bg-white text-deep-brown hover:bg-terracotta/10 border border-terracotta/20'
-                }`}
+                  }`}
               >
                 {category.name}
               </button>
@@ -203,11 +203,11 @@ const Gallery = () => {
                 onClick={() => openLightbox(index)}
               >
                 <div className="relative overflow-hidden rounded-2xl card-shadow hover-lift">
-                <img  
-  className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
-  alt={artwork.alt}
-  src={`/images/${artwork.src}`}
-/>                
+                  <img
+                    className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
+                    alt={artwork.alt}
+                    src={`/images/${artwork.src}`}
+                  />
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-6 text-white">

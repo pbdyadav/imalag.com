@@ -1,44 +1,25 @@
 // src/data/productsData.js
 const products = [
-    {
-        id: 1,
-        title: "Traditional Mandla Lippan",
-        price: "₹700",
-        image: "/images/products/Art7.png",
-        description: "Beautiful design with intricate mirror work on clay base.",
-        size: '12" Circle',
-        stock: 5
-      },
-      {
-        id: 2,
-        title: "White Lippan Art",
-        price: "₹700",
-        image: "/images/products/Art8.png",
-        description: "Stunning mandala pattern created with mirror pieces.",
-        size: '12" Circle',
-        stock: 5
-      },
-      {
-        id: 3,
-        title: "Spiritual Buddha with Tree",
-        price: "₹1,100",
-        image: "/images/products/Art9.png",
-        description: "Spiritual Buddha with tree and mirror in black colors.",
-        size: '14" Circle',
-        stock: 5
-      },
-      {
-        id: 4,
-        title: "Clay Golder Treee",
-        price: "₹800",
-        image: "/images/products/Art10.png",
-        description: "Vibrant Clay work in Black and Gold colour artwork with traditional Indian motifs.",
-        size: '14" Circle',
-        stock: 5
-      },
-     
-      {
-    id: 5,
+    
+  {
+    id: 1,
+    title: "Moon Lippan Art Handcrafted",
+    price: "₹4,500",
+    originalPrice: "₹5,500",
+    category: "Lippan Art",
+    size: '18" x 18"',
+    description: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home decor, and adding a touch of traditional Indian elegance to any wall.",
+    rating: 5,
+    reviews: 9,
+    image: "/images/Moon Art Photo.jpg",
+    images: [
+      "/images/Moon Art Photo.jpg",
+      "/images/Moon Art PhotoO.png",
+      "/images/Moon Art Part1.gif",
+    ],
+  },
+     {
+    id: 2,
     title: "Black Buddha with Holo Light Efects ",
     price: "₹3,800",
     originalPrice: "₹4,500",
@@ -56,10 +37,9 @@ const products = [
       "Durable and long-lasting",
       "Easy to hang on any wall surface"
     ]
-  },
-      
-    {
-    id: 6,
+  }, 
+      {
+    id: 3,
     title: "Green Buddha with Holo Light Efects",
     price: "3,800",
     originalPrice: "₹4,500",
@@ -78,6 +58,38 @@ const products = [
       "Easy to hang on any wall surface"
     ]
   },
+
+     {
+        id: 4,
+        title: "Spiritual Buddha with Tree",
+        price: "₹1,100",
+        image: "/images/products/Art9.png",
+        description: "Spiritual Buddha with tree and mirror in black colors.",
+        size: '14" Circle',
+        stock: 5
+      },
+
+     {
+        id: 5,
+        title: "White Lippan Art",
+        price: "₹700",
+        image: "/images/products/Art8.png",
+        description: "Stunning mandala pattern created with mirror pieces.",
+        size: '12" Circle',
+        stock: 5
+      },
+      
+       {
+        id: 6,
+        title: "Clay Golder Treee",
+        price: "₹800",
+        image: "/images/products/Art10.png",
+        description: "Vibrant Clay work in Black and Gold colour artwork with traditional Indian motifs.",
+        size: '14" Circle',
+        stock: 5
+      },
+
+    
       {
     id: 7,
     title: "Lippan Art Work as Per Clint ",
@@ -119,22 +131,14 @@ const products = [
     ]
   },
   {
-    id: 9,
-    title: "Moon Lippan Art Handcrafted",
-    price: "₹4,500",
-    originalPrice: "₹5,500",
-    category: "Lippan Art",
-    size: '18" x 18"',
-    description: "We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home decor, and adding a touch of traditional Indian elegance to any wall.",
-    rating: 5,
-    reviews: 9,
-    image: "/images/Moon Art Photo.jpg",
-    images: [
-      "/images/Moon Art Photo.jpg",
-      "/images/Moon Art PhotoO.png",
-      "/images/Moon Art Part1.gif",
-    ],
-  },
+        id: 9,
+        title: "Traditional Mandla Lippan",
+        price: "₹700",
+        image: "/images/products/Art7.png",
+        description: "Beautiful design with intricate mirror work on clay base.",
+        size: '12" Circle',
+        stock: 5
+      },
       {
         id: 10,
         title: "Ornament Box",
@@ -275,8 +279,80 @@ const products = [
       "Perfect Base for Creative Projects"
     ]
   },
-    {
+  {
     id: 100,
+    title: "MDF Art Circle 12 Inch 6mm- Perfect Base for Creative Projects ",
+    price: "₹99",
+    originalPrice: "₹120",
+    category: "mdf",
+    size: '12" - 6mm',
+    weight: "100 grams",
+    description: "MDF Board for Art and Craft - Wood Round/Cercle for Art & Craft | Resin, Lippan, Mandala, Painting, Wall Hanging, Clock Making, Decoration, Create stunning handcrafted masterpieces with this high-quality 12 Inch 6mm MDF Cercle, this Cercle provides a strong and steady surface for detailed artwork while giving a premium look to the final product. Ideal this Cercle is perfect for artists, hobbyists, and creators who want to transform simple wood into beautiful, functional art.",
+    rating: 5,
+    reviews: 5,
+    image: "/images/products/Circle 6mm 12 Inch.png",
+    images: [
+      "/images/products/Circle 6mm 12 Inch.png",
+      "/images/products/Circle 6mm 12 Inch1.png",
+      "/images/products/Circle 6mm 12 Inch2.png",
+    ],
+    features: [
+      "High-quality MDF Circle for Art work.",
+      "Perfect for Resin, Lippan, Mandala, Painting, Wall Hanging, Clock Making, Decoration and more.",
+      "Durable and long-lasting.",
+      "Perfect Base for Creative Projects."
+    ]
+  },
+  {
+    id: 101,
+    title: "MDF Art Circle 12 Inch 8mm- Perfect Base for Creative Projects ",
+    price: "₹120",
+    originalPrice: "₹150",
+    category: "mdf",
+    size: '12" - 8mm',
+    weight: "100 grams",
+   description: "MDF Board for Art and Craft - Wood Round/Cercle for Art & Craft | Resin, Lippan, Mandala, Painting, Wall Hanging, Clock Making, Decoration, Create stunning handcrafted masterpieces with this high-quality 12 Inch 8mm MDF Cercle, this Cercle provides a strong and steady surface for detailed artwork while giving a premium look to the final product. Ideal this Cercle is perfect for artists, hobbyists, and creators who want to transform simple wood into beautiful, functional art.",
+    rating: 5,
+    reviews: 5,
+    image: "/images/products/Circle 6mm 12 Inch.png",
+    images: [
+      "/images/products/Circle 8mm 12 Inch.png",
+      "/images/products/Circle 8mm 12 Inch1.png",
+      "/images/products/Circle 8mm 12 Inch2.png",
+    ],
+    features: [
+      "High-quality MDF Circle for Art work.",
+      "Perfect for Resin, Lippan, Mandala, Painting, Wall Hanging, Clock Making, Decoration and more.",
+      "Durable and long-lasting.",
+      "Perfect Base for Creative Projects."
+    ]
+  },
+   {
+    id: 102,
+    title: "MDF Art Circle 16 Inch 8mm- Perfect Base for Creative Projects ",
+    price: "₹120",
+    originalPrice: "₹150",
+    category: "mdf",
+    size: '16" - 8mm',
+    weight: "100 grams",
+    description: "MDF Board for Art and Craft - Wood Round/Cercle for Art & Craft | Resin, Lippan, Mandala, Painting, Wall Hanging, Clock Making, Decoration, Create stunning handcrafted masterpieces with this high-quality 16 Inch 8mm MDF Cercle, this Cercle provides a strong and steady surface for detailed artwork while giving a premium look to the final product. Ideal this Cercle is perfect for artists, hobbyists, and creators who want to transform simple wood into beautiful, functional art.",
+    rating: 5,
+    reviews: 5,
+    image: "/images/products/Circle 8mm 16 Inch.png",
+    images: [
+      "/images/products/Circle 8mm 16 Inch.png",
+      "/images/products/Circle 8mm 12 Inch1.png",
+      "/images/products/Circle 8mm 16 Inch2.png",
+    ],
+    features: [
+      "High-quality MDF Circle for Art work.",
+      "Perfect for Resin, Lippan, Mandala, Painting, Wall Hanging, Clock Making, Decoration and more.",
+      "Durable and long-lasting.",
+      "Perfect Base for Creative Projects."
+    ]
+  },
+    {
+    id: 150,
     title: "Round/Circle Shape Glass mirrors for Lippan Art / Mandala Art ",
     price: "₹99",
     originalPrice: "₹150",
@@ -301,7 +377,7 @@ const products = [
     ]
   },
   {
-    id: 101,
+    id: 151,
     title: "Square Shape Glass Mirrors for Lippan Art / Mandala Art",
     price: "₹99",
     originalPrice: "₹150",
@@ -326,7 +402,7 @@ const products = [
     ]
   },
   {
-    id: 102,
+    id: 152,
     title: "Drop/Tilak Shape Mirror Silver Glass",
     price: "₹99",
     originalPrice: "₹150",
@@ -351,7 +427,7 @@ const products = [
     ]
   },
   {
-    id: 103,
+    id: 153,
     title: "Rectangle Shape Mirror Silver Glass",
     price: "₹99",
     originalPrice: "₹150",
@@ -376,7 +452,7 @@ const products = [
     ]
   },
   {
-    id: 104,
+    id: 154,
     title: "Life Shape Mirror Silver Glass",
     price: "₹99",
     originalPrice: "₹150",
@@ -401,7 +477,7 @@ const products = [
     ]
   },
   {
-    id: 105,
+    id: 155,
     title: "Triangle Shape Mirror Silver Glass",
     price: "₹99",
     originalPrice: "₹150",
@@ -426,7 +502,7 @@ const products = [
     ]
   },
   {
-    id: 106,
+    id: 156,
     title: "Rhombus/diamond Shape Mirror Silver Glass",
     price: "₹99",
     originalPrice: "₹150",
@@ -451,7 +527,7 @@ const products = [
     ]
   },
   {
-    id: 107,
+    id: 157,
     title: "Half Moon Shape Mirror Silver Glass",
     price: "₹99",
     originalPrice: "₹150",
@@ -476,7 +552,7 @@ const products = [
     ]
   },
   {
-    id: 108,
+    id: 158,
     title: "Long Drop/Tilak Shape Mirror Silver Glass",
     price: "₹99",
     originalPrice: "₹150",
