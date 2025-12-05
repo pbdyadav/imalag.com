@@ -29,10 +29,12 @@ const Products = () => {
 
   // ✅ FILTER LOGIC
   const filteredProducts =
-    selectedCategory === "all"
-      ? products
-      : products.filter(
-        (item) => item.category === selectedCategory
+  selectedCategory === "all"
+    ? products
+    : products.filter((item) => 
+        Array.isArray(item.category)
+          ? item.category.includes(selectedCategory)
+          : item.category === selectedCategory
       );
 
   // ✅ WHATSAPP ORDER HANDLER

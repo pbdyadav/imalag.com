@@ -28,118 +28,165 @@ const Home = () => {
   ];
 
   const featuredArtworks = [
-  { image: '/images/Moon Art Photo.jpg', title: 'Traditional Lippan Art', description: 'Handcrafted with love' },
-  { image: '/images/Lippan_wall_decor.jpg', title: 'Mirror Mosaic Masterpiece', description: 'Modern elegance with tradition' },
-  { image: '/images/DipYellow.jpeg', title: 'Dot Work Design', description: 'Fine details and texture' },
-];
+    { image: '/images/Moon Art Photo.jpg', title: 'Traditional Lippan Art', description: 'Handcrafted with love' },
+    { image: '/images/Lippan_wall_decor.jpg', title: 'Mirror Mosaic Masterpiece', description: 'Modern elegance with tradition' },
+    { image: '/images/DipYellow.jpeg', title: 'Dot Work Design', description: 'Fine details and texture' },
+  ];
 
 
   return (
     <>
       <Helmet>
-        <title>Archana Lippan Art Gallery - Traditional Indian Art & Handicrafts</title>
-        <meta name="description" content="Discover beautiful traditional Lippan Kaam, mirror work, and glass mosaic art by Archana. Authentic Indian folk art from Gujarat with modern appeal." />
+        <title>Buy Lippan Art Material, Kits & Raw Materials | Archana Lippan Art Gallery</title>
+
+        <meta
+          name="description"
+          content="Shop premium Lippan art material, Lippan art kits, and raw materials handcrafted by Archana. Traditional Lippan Kaam, mirror work, MDF art, glass mosaic work, and custom wall décor. Fast delivery across India."
+        />
+
+        <meta
+          name="keywords"
+          content="Lippan art material, Lippan art kit, Lippan art raw material, Lippan Kaam, Mud mirror art, Buy Lippan art online, Mirror mosaic materials, MDF art tools, Lippan clay"
+        />
+
+        <link rel="canonical" href="https://imalag.com/" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Archana Lippan Art Gallery – Lippan Art, Kits & Raw Materials" />
+        <meta property="og:description" content="Premium handcrafted Lippan art materials, kits, and traditional mirror work pieces." />
+        <meta property="og:image" content="https://imalag.com/ALAG_Home.png" />
+        <meta property="og:url" content="https://imalag.com/" />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter / Instagram */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Archana Lippan Art Gallery – Lippan Art, Kits & Materials" />
+        <meta name="twitter:description" content="Shop premium Lippan art materials, kits, raw materials & handcrafted décor." />
+        <meta name="twitter:image" content="https://imalag.com/ALAG_Home.png" />
+
+        {/* JSON-LD */}
+        <script type="application/ld+json">
+          {`
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Archana Lippan Art Gallery",
+        "url": "https://imalag.com",
+        "image": "https://imalag.com/ALAG_Home.png",
+        "description": "Premium Lippan art materials, kits, raw materials and handcrafted Lippan Kaam by artisan Archana.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "IN"
+        }
+      }
+    `}
+        </script>
       </Helmet>
 
       <div className="min-h-screen">
         {/* Hero Section */}
-    <section className="relative hero-pattern py-20 lg:py-32 overflow-hidden">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
-      
-      {/* Left Column */}
-      <motion.div
-        initial={{ opacity: 0, x: -50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8 }}
-        className="flex flex-col justify-between h-full space-y-6"
-      >
-        <motion.section
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2, duration: 0.8 }}
-          className="flex flex-col items-start"
-        >
-          <h2 className="text-3xl md:text-5xl font-extrabold text-deep-brown drop-shadow-[2px_2px_1px_rgba(0,0,0,0.3)] mb-4">
-            Welcome to
-          </h2>
-          <img
-            src="/ALAG_Home.png"
-            alt="Welcome ALAG"
-            className="w-[320px] h-auto mb-6"
-          />
-        </motion.section>
+        <section className="relative hero-pattern py-20 lg:py-32 overflow-hidden">
+          <h1 className="sr-only">
+            Premium Lippan art and Lippan Art Material, Lippan Art Kits & Raw Materials - Archana Lippan Art Gallery
+          </h1>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
 
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4, duration: 0.8 }}
-          className="text-lg md:text-base text-deep-brown/80 leading-relaxed"
-        >
-          Discover the timeless beauty of traditional Indian folk art.<br />
-          Each piece tells a story of heritage, craftsmanship, and cultural pride.<br />
-          Rooted in centuries-old customs, our artworks reflect the spirit of rural India.<br />
-          From intricate patterns to vibrant mirror work, every detail carries meaning.<br />
-          Celebrate the soul of Indian tradition through art that speaks across generations.
-        </motion.p>
+              {/* Left Column */}
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+                className="flex flex-col justify-between h-full space-y-6"
+              >
+                <motion.section
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.2, duration: 0.8 }}
+                  className="flex flex-col items-start"
+                >
+                  <h2 className="text-3xl md:text-5xl font-extrabold text-deep-brown drop-shadow-[2px_2px_1px_rgba(0,0,0,0.3)] mb-4">
+                    Welcome to
+                  </h2>
+                  <img
+                    src="/ALAG_Home.png"
+                    alt="Welcome ALAG"
+                    className="w-[320px] h-auto mb-6"
+                  />
+                </motion.section>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6, duration: 0.8 }}
-          className="flex flex-col sm:flex-row gap-4"
-        >
-          <Link to="/gallery">
-            <Button className="bg-terracotta hover:bg-terracotta/90 text-white px-8 py-3 text-lg group">
-              Explore Gallery
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-          </Link>
-          <Link to="/products">
-            <Button
-              variant="outline"
-              className="border-terracotta text-terracotta hover:bg-terracotta hover:text-white px-8 py-3 text-lg"
-            >
-              Shop Artworks
-            </Button>
-          </Link>
-        </motion.div>
-      </motion.div>
+                <motion.p
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.4, duration: 0.8 }}
+                  className="text-lg md:text-base text-deep-brown/80 leading-relaxed"
+                >
+                  Discover premium <strong>Lippan art and Lippan art material</strong>, handcrafted
+                  <strong> Lippan art kits</strong>, and authentic
+                  <strong> Lippan art raw materials</strong>—crafted with traditional techniques
+                  and modern finishing. Perfect for artists, hobby creators, and home decor
+                  lovers who want to make stunning Lippan artworks at home. Each product carries
+                  the beauty, heritage, and cultural richness of Gujarat's traditional art.
+                </motion.p>
 
-      {/* Right Column */}
-      <motion.div
-        initial={{ opacity: 0, x: 50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8, delay: 0.3 }}
-        className="flex flex-col justify-between h-full space-y-6"
-      >
-        <div className="relative rounded-2xl overflow-hidden card-shadow aspect-video">
-          <video
-            className="w-full h-full object-cover"
-            autoPlay
-            loop
-            muted
-            playsInline
-          >
-            <source src="/lippan_work_V.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-        </div>
 
-        <p className="text-lg md:text-lg text-deep-brown/90 leading-relaxed">
-          भारतीय पारंपरिक लोक कला की शाश्वत सुंदरता को खोजिए।<br />
-          हर कलाकृति विरासत, शिल्पकौशल और सांस्कृतिक गौरव की एक कहानी कहती है।<br />
-          सदियों पुरानी परंपराओं में रची-बसी यह कला ग्रामीण भारत की आत्मा को दर्शाती है।<br />
-          जटिल डिज़ाइन से लेकर चमकदार शीशे के काम तक, हर विवरण में एक अर्थ छिपा है।<br />
-          पीढ़ियों से संवाद करती इस कला के माध्यम से भारतीय संस्कृति की आत्मा का उत्सव मनाइए।
-        </p>
-      </motion.div>
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.6, duration: 0.8 }}
+                  className="flex flex-col sm:flex-row gap-4"
+                >
+                  <Link to="/gallery">
+                    <Button className="bg-terracotta hover:bg-terracotta/90 text-white px-8 py-3 text-lg group">
+                      Explore Gallery
+                      <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </Link>
+                  <Link to="/products">
+                    <Button
+                      variant="outline"
+                      className="border-terracotta text-terracotta hover:bg-terracotta hover:text-white px-8 py-3 text-lg"
+                    >
+                      Shop Artworks
+                    </Button>
+                  </Link>
+                </motion.div>
+              </motion.div>
 
-    </div>
-  </div>
-</section>
-    {/* Features Section */}
+              {/* Right Column */}
+              <motion.div
+                initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                className="flex flex-col justify-between h-full space-y-6"
+              >
+                <div className="relative rounded-2xl overflow-hidden card-shadow aspect-video">
+                  <video
+                    className="w-full h-full object-cover"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  >
+                    <source src="/lippan_work_V.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                </div>
+
+                <p className="text-lg md:text-lg text-deep-brown/90 leading-relaxed">
+                  भारतीय पारंपरिक लोक कला की शाश्वत सुंदरता को खोजिए।<br />
+                  हर कलाकृति विरासत, शिल्पकौशल और सांस्कृतिक गौरव की एक कहानी कहती है।<br />
+                  सदियों पुरानी परंपराओं में रची-बसी यह कला ग्रामीण भारत की आत्मा को दर्शाती है।<br />
+                  जटिल डिज़ाइन से लेकर चमकदार शीशे के काम तक, हर विवरण में एक अर्थ छिपा है।<br />
+                  पीढ़ियों से संवाद करती इस कला के माध्यम से भारतीय संस्कृति की आत्मा का उत्सव मनाइए।
+                </p>
+              </motion.div>
+
+            </div>
+          </div>
+        </section>
+        {/* Features Section */}
         <section className="py-20 bg-white/50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
@@ -185,60 +232,60 @@ const Home = () => {
         </section>
 
         {/* Featured Artworks Preview */}
-<section className="py-20 mandala-bg">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <motion.div
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8 }}
-      viewport={{ once: true }}
-      className="text-center mb-16"
-    >
-      <h2 className="font-playfair text-3xl md:text-4xl font-bold text-deep-brown mb-4">
-        Featured Artworks
-      </h2>
-      <p className="text-lg text-deep-brown/70 max-w-2xl mx-auto">
-        A glimpse into our beautiful collection of traditional and contemporary pieces
-      </p>
-    </motion.div>
+        <section className="py-20 mandala-bg">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="text-center mb-16"
+            >
+              <h2 className="font-playfair text-3xl md:text-4xl font-bold text-deep-brown mb-4">
+                Featured Artworks
+              </h2>
+              <p className="text-lg text-deep-brown/70 max-w-2xl mx-auto">
+                A glimpse into our beautiful collection of traditional and contemporary pieces
+              </p>
+            </motion.div>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {featuredArtworks.map((art, index) => (
-        <motion.div
-          key={index}
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, delay: index * 0.2 }}
-          viewport={{ once: true }}
-          className="group cursor-pointer"
-        >
-          <div className="relative overflow-hidden rounded-2xl card-shadow hover-lift">
-            <img  
-              className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500 cursor-zoom-in"
-              alt={art.title}
-              src={art.image}
-              onClick={() => setSelectedImage(art.image)}
-            />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {featuredArtworks.map((art, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.8, delay: index * 0.2 }}
+                  viewport={{ once: true }}
+                  className="group cursor-pointer"
+                >
+                  <div className="relative overflow-hidden rounded-2xl card-shadow hover-lift">
+                    <img
+                      className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500 cursor-zoom-in"
+                      alt={art.title}
+                      src={art.image}
+                      onClick={() => setSelectedImage(art.image)}
+                    />
 
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <h3 className="font-playfair text-lg font-semibold">{art.title}</h3>
-                <p className="text-sm opacity-90">{art.description}</p>
-              </div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="absolute bottom-4 left-4 right-4 text-white">
+                        <h3 className="font-playfair text-lg font-semibold">{art.title}</h3>
+                        <p className="text-sm opacity-90">{art.description}</p>
+                      </div>
+                    </div>
+                  </div>
+                </motion.div>
+              ))}
             </div>
-          </div>
-        </motion.div>
-      ))}
-    </div>
 
-    {/* Lightbox should stay OUTSIDE the loop */}
-    {selectedImage && (
-      <Lightbox 
-        image={selectedImage}
-        onClose={() => setSelectedImage(null)}
-      />
-    )}
-          
+            {/* Lightbox should stay OUTSIDE the loop */}
+            {selectedImage && (
+              <Lightbox
+                image={selectedImage}
+                onClose={() => setSelectedImage(null)}
+              />
+            )}
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -269,7 +316,7 @@ const Home = () => {
                 Bring Traditional Art to Your Home
               </h2>
               <p className="text-xl mb-8 opacity-90">
-                Each piece is a unique work of art that adds warmth, culture, and beauty to any space. 
+                Each piece is a unique work of art that adds warmth, culture, and beauty to any space.
                 Connect with us to commission custom artwork or purchase from our collection.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
