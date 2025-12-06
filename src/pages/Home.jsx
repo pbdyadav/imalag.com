@@ -121,12 +121,13 @@ const Home = () => {
                   transition={{ delay: 0.4, duration: 0.8 }}
                   className="text-lg md:text-base text-deep-brown/80 leading-relaxed"
                 >
-                  Discover premium <strong>Lippan art and Lippan art material</strong>, handcrafted
-                  <strong> Lippan art kits</strong>, and authentic
-                  <strong> Lippan art raw materials</strong>—crafted with traditional techniques
-                  and modern finishing. Perfect for artists, hobby creators, and home decor
-                  lovers who want to make stunning Lippan artworks at home. Each product carries
-                  the beauty, heritage, and cultural richness of Gujarat's traditional art.
+                  Discover premium authentic<strong> Mud/clay and Mirror Work art </strong>and premium <strong>Lippan art material.</strong> We offer handcrafted
+                  <strong> Lippan art kits</strong> and high-quality
+                  <strong> raw materials</strong> — all crafted using traditional Gujarat techniques 
+                  with a modern, durable finish. Perfect for<strong> Indian home decor</strong>, artists, 
+                  and hobbyists who want to create stunning, original artworks. Each piece and product reflects the
+                  <strong> timeless beauty, heritage, and cultural pride of traditional Indian folk art</strong>
+                  , featuring intricate patterns and vibrant <strong>mirror work </strong>that speaks across generations.<br/>
                 </motion.p>
 
 
@@ -175,11 +176,15 @@ const Home = () => {
                 </div>
 
                 <p className="text-lg md:text-lg text-deep-brown/90 leading-relaxed">
-                  भारतीय पारंपरिक लोक कला की शाश्वत सुंदरता को खोजिए।<br />
-                  हर कलाकृति विरासत, शिल्पकौशल और सांस्कृतिक गौरव की एक कहानी कहती है।<br />
-                  सदियों पुरानी परंपराओं में रची-बसी यह कला ग्रामीण भारत की आत्मा को दर्शाती है।<br />
-                  जटिल डिज़ाइन से लेकर चमकदार शीशे के काम तक, हर विवरण में एक अर्थ छिपा है।<br />
-                  पीढ़ियों से संवाद करती इस कला के माध्यम से भारतीय संस्कृति की आत्मा का उत्सव मनाइए।
+                  
+                  प्रीमियम असली <strong>मड/क्ले और मिरर वर्क आर्ट</strong> और प्रीमियम <strong>लिप्पन आर्ट मटीरियल</strong> खोजें।<br />
+                  हम हाथ से बने <strong>लिप्पन आर्ट किट</strong> और हाई-क्वालिटी <strong>रॉ मटीरियल</strong> देते हैं — ये<br />
+                  सभी मॉडर्न, ड्यूरेबल फिनिश के साथ पारंपरिक गुजरात टेक्नीक का इस्तेमाल<br />
+                  करके बनाए गए हैं।<strong> इंडियन होम डेकोर</strong>, आर्टिस्ट और हॉबी करने वालों<br />
+                  के लिए एकदम सही है जो शानदार, ओरिजिनल आर्टवर्क बनाना चाहते हैं।<br />
+                  हर पीस और प्रोडक्ट पारंपरिक इंडियन लोक कला की हमेशा रहने वाली <strong>सुंदरता,<br />
+                  विरासत और कल्चरल गर्व को दिखाता है</strong>, जिसमें बारीक पैटर्न और <br />
+                  वाइब्रेंट <strong>मिरर वर्क</strong> है जो पीढ़ियों तक बोलता है।
                 </p>
               </motion.div>
 
