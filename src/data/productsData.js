@@ -319,7 +319,7 @@ const products = [
    description: "MDF Board for Art and Craft - Wood Round/Cercle for Art & Craft | Resin, Lippan, Mandala, Painting, Wall Hanging, Clock Making, Decoration, Create stunning handcrafted masterpieces with this high-quality 12 Inch 8mm MDF Cercle, this Cercle provides a strong and steady surface for detailed artwork while giving a premium look to the final product. Ideal this Cercle is perfect for artists, hobbyists, and creators who want to transform simple wood into beautiful, functional art.",
     rating: 5,
     reviews: 5,
-    image: "/images/products/Circle 6mm 12 Inch.png",
+    image: "/images/products/Circle 8mm 12 Inch.png",
     images: [
       "/images/products/Circle 8mm 12 Inch.png",
       "/images/products/Circle 8mm 12 Inch1.png",
