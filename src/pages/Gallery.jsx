@@ -161,8 +161,42 @@ const Gallery = () => {
             <h1 className="font-playfair text-4xl md:text-5xl font-bold text-deep-brown mb-6">
               Art <span className="text-terracotta">Gallery</span>
             </h1>
-            <p className="text-xl text-deep-brown/70 max-w-3xl mx-auto">
-              Explore our beautiful collection of traditional Indian folk art, each piece crafted with love and cultural heritage
+            <p className="text-lg text-deep-brown/80 max-w-5xl mx-auto text-left leading-relaxed space-y-4">
+              <span className="block mb-4">
+                Step into a world of heritage, creativity, and artistic excellence. Our
+                <strong> Art Gallery </strong> showcases a curated collection of handcrafted
+                <strong> Lippan mud art, mirror mosaic pieces, glass décor,</strong> and
+                <strong> custom artworks </strong> created using traditional Indian craft techniques.
+              </span>
+
+              <span className="block mb-4">
+                Each artwork reflects the cultural beauty of Gujarat's folk traditions,
+                blended with modern design, premium craftsmanship, and attention to detail —
+                perfect for luxury interiors, gifting, décor styling, and creative inspiration.
+              </span>
+
+              <h2 className="text-xl font-semibold text-terracotta mt-6">✨ What You'll Experience in Our Gallery:</h2>
+              <ul className="list-disc ml-6 mt-2 space-y-1">
+                <li>Authentic handmade Lippan mud and mirror art</li>
+                <li>Elegant mirror mosaic wall décor pieces</li>
+                <li>Exclusive glass work and MDF décor units</li>
+                <li>Rare custom artwork designs made for interiors</li>
+                <li>Art inspired by culture, nature, and spirituality</li>
+              </ul>
+
+              <h2 className="text-xl font-semibold text-terracotta mt-6">🌟 Why Our Art Stands Out:</h2>
+              <ul className="list-disc ml-6 mt-2 space-y-1">
+                <li>Premium handcrafted finishes and materials</li>
+                <li>Timeless folk tradition blended with modern style</li>
+                <li>Perfect for home, office, hotels, studios, and gifting</li>
+                <li>Available in custom sizes, colours & themes</li>
+                <li>Every piece tells a real cultural story</li>
+              </ul>
+
+              <span className="block mt-6">
+                Explore our gallery below to experience the richness of traditional Indian art infused
+                with modern elegance — designed to transform any space with depth, beauty, and identity.
+              </span>
             </p>
           </motion.div>
 
@@ -178,8 +212,8 @@ const Gallery = () => {
                 key={category.id}
                 onClick={() => setSelectedCategory(category.id)}
                 className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${selectedCategory === category.id
-                    ? 'bg-terracotta text-white shadow-lg'
-                    : 'bg-white text-deep-brown hover:bg-terracotta/10 border border-terracotta/20'
+                  ? 'bg-terracotta text-white shadow-lg'
+                  : 'bg-white text-deep-brown hover:bg-terracotta/10 border border-terracotta/20'
                   }`}
               >
                 {category.name}
