@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Menu, X, ShoppingCart } from 'lucide-react';
+
 import { useCart } from '@/hooks/useCart';
 
 const Header = () => {
@@ -15,6 +16,7 @@ const Header = () => {
     { name: 'About Lippan Art', path: '/about' },
     { name: 'Gallery', path: '/gallery' },
     { name: 'Products', path: '/products' },
+    { name: 'Blog', path: '/blog' }, // ✅ Comma added here
     { name: 'Contact Us', path: '/contact' },
   ];
 

@@ -18,6 +18,17 @@ import TermsOfService from "./pages/Legal/TermsOfService";
 import RefundPolicy from "./pages/Legal/RefundPolicy";
 import Disclaimer from "./pages/Legal/Disclaimer";
 import ShippingPolicy from "@/pages/Legal/ShippingPolicy.jsx";
+import Blog from './pages/Blog'; // Adjust path based on your folder
+import BlogPost from './pages/BlogPost'; // Import the new page
+import ToolsForLippan from './pages/ToolsForLippan';
+import MudGlueMix from './pages/MudGlueMix';
+import MirrorSymbolism from './pages/MirrorSymbolism';
+import ModernInteriors from './pages/ModernInteriors';
+import BeginnersGuide from './pages/BeginnersGuide';
+import CleaningTips from './pages/CleaningTips';
+import RabariPatterns from './pages/RabariPatterns';
+import EcoFriendlyArt from './pages/EcoFriendlyArt';
+import ColorTheory from './pages/ColorTheory';
 
 function App() {
   return (
@@ -39,6 +50,18 @@ function App() {
             <Route path="/refund-policy" element={<RefundPolicy />} />
             <Route path="/shipping-policy" element={<ShippingPolicy />} />
             <Route path="/disclaimer" element={<Disclaimer />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/history-of-lippan" element={<BlogPost />} /> {/* New Route */}
+            <Route path="/blog/essential-tools" element={<ToolsForLippan />} />
+            <Route path="/blog/mud-glue-mix" element={<MudGlueMix />} />
+            <Route path="/blog/mirror-symbolism" element={<MirrorSymbolism />} />
+            <Route path="/blog/modern-interiors" element={<ModernInteriors />} />
+            <Route path="/blog/beginners-guide" element={<BeginnersGuide />} />
+            <Route path="/blog/cleaning-tips" element={<CleaningTips />} />
+            <Route path="/blog/rabari-patterns" element={<RabariPatterns />} />
+            <Route path="/blog/eco-friendly-art" element={<EcoFriendlyArt />} />
+            <Route path="/blog/color-theory" element={<ColorTheory />} />
+            
           </Routes>
         </main>
         <CookieConsent />

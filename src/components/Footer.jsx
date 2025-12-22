@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { MessageCircle, Instagram, Mail, Phone, MapPin } from 'lucide-react';
@@ -12,7 +11,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <img 
-              src="ALAG_Font_logo.png" 
+                src="ALAG_Font_logo.png" 
                 alt="Archana Lippan Art Gallery" 
                 className="h-10 w-auto"
               />
@@ -75,6 +74,12 @@ const Footer = () => {
                   Products
                 </Link>
               </li>
+              {/* ✅ ADDED BLOG LINK BELOW ✅ */}
+              <li>
+                <Link to="/blog" className="text-warm-beige/80 hover:text-gold transition-colors">
+                  Blog (Art Insights)
+                </Link>
+              </li>
               <li>
                 <Link to="/contact" className="text-warm-beige/80 hover:text-gold transition-colors">
                   Contact Us
@@ -108,17 +113,20 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-warm-beige/20 mt-8 pt-8 text-center">
-          <p className="text-warm-beige/60">
-            © 2024 Archana Lippan Art Gallery. All rights reserved. | Preserving Traditional Indian Art
+        {/* Bottom Section */}
+        <div className="border-t border-warm-beige/20 mt-8 pt-8 flex flex-col items-center">
+          <p className="text-warm-beige/60 text-center">
+            © 2025 Archana Lippan Art Gallery. All rights reserved. | Preserving Traditional Indian Art
           </p>
-          <div className="flex gap-4 text-sm mt-4">
-  <Link to="/privacy-policy" className="hover:underline">Privacy Policy</Link>
-  <Link to="/terms-of-service" className="hover:underline">Terms & Conditions</Link>
-  <Link to="/refund-policy" className="hover:underline">Refund Policy</Link>
-  <Link to="/shipping-policy" className="hover:underline">Shipping Policy</Link>
-  <Link to="/disclaimer" className="hover:underline">Disclaimer</Link>
-</div>
+          
+          {/* ✅ CENTERED AND CLEANED UP LEGAL LINKS ✅ */}
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm mt-4 text-warm-beige/50">
+            <Link to="/privacy-policy" className="hover:text-gold transition-colors">Privacy Policy</Link>
+            <Link to="/terms-of-service" className="hover:text-gold transition-colors">Terms & Conditions</Link>
+            <Link to="/refund-policy" className="hover:text-gold transition-colors">Refund Policy</Link>
+            <Link to="/shipping-policy" className="hover:text-gold transition-colors">Shipping Policy</Link>
+            <Link to="/disclaimer" className="hover:text-gold transition-colors">Disclaimer</Link>
+          </div>
         </div>
       </div>
     </footer>
