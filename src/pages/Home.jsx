@@ -115,20 +115,31 @@ const Home = () => {
                   />
                 </motion.section>
 
-                <motion.p
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.4, duration: 0.8 }}
-                  className="text-lg md:text-base text-deep-brown/80 leading-relaxed"
-                >
-                  Discover premium authentic<strong> Mud/clay and Mirror Work art </strong>and premium <strong>Lippan art material.</strong> We offer handcrafted
-                  <strong> Lippan art kits</strong> and high-quality
-                  <strong> raw materials</strong> — all crafted using traditional Gujarat techniques 
-                  with a modern, durable finish. Perfect for<strong> Indian home decor</strong>, artists, 
-                  and hobbyists who want to create stunning, original artworks. Each piece and product reflects the
-                  <strong> timeless beauty, heritage, and cultural pride of traditional Indian folk art</strong>
-                  , featuring intricate patterns and vibrant <strong>mirror work </strong>that speaks across generations.<br/>
-                </motion.p>
+                <motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.4, duration: 0.8 }}
+  className="text-lg md:text-base text-deep-brown/80 leading-relaxed space-y-4"
+>
+  <p>Discover premium authentic<strong> Mud/clay and Mirror Work art </strong>and premium <strong>Lippan art material.</strong> We offer handcrafted
+  <strong> Lippan art kits</strong> and high-quality
+  <strong> raw materials</strong> — all crafted using traditional Gujarat techniques 
+  with a modern, durable finish. Perfect for<strong> Indian home decor</strong>, artists, 
+  and hobbyists who want to create stunning, original artworks. Each piece and product reflects the
+  <strong> timeless beauty, heritage, and cultural pride of traditional Indian folk art</strong>
+  , featuring intricate patterns and vibrant <strong>mirror work </strong>that speaks across generations.</p>
+
+  <p><strong>INTRODUCTION</strong></p>
+                  <p><strong>Lippan Art,</strong> also known as Mud and Mirror Work, is a traditional wall art form from the Kutch region of <strong>Gujarat, India. </strong> 
+                  For generations, this style has been used to beautify village homes, temples, and havelis. Today, 
+                  Lippan Art has become one of the most loved interior decor styles, blending tradition with modern design.
+                  From clay patterns to sparkling mirrors, every Lippan artwork tells a story — of nature, community, culture, and craftsmanship.</p>
+                  <p><strong>HISTORY OF LIPPAN ART</strong></p>
+                  <p>The roots of Lippan Art can be traced back hundreds of years. It was originally created by the <strong>Rabari community,</strong> who decorated the walls of mud houses using cow dung, 
+                  clay, and small mirrors.</p>
+                  <p>The word <strong>“Lippan”</strong> means to <strong>apply.</strong> Traditionally, women created motifs of animals, trees, mandalas, birds, 
+                  and geometric designs. The purpose was not only decoration but also heat control — clay walls helped keep homes cool in the desert climate of Kutch.</p>
+                </motion.div>
 
 
                 <motion.div
@@ -183,9 +194,16 @@ const Home = () => {
                   करके बनाए गए हैं।<strong> इंडियन होम डेकोर</strong>, आर्टिस्ट और हॉबी करने वालों<br />
                   के लिए एकदम सही है जो शानदार, ओरिजिनल आर्टवर्क बनाना चाहते हैं।<br />
                   हर पीस और प्रोडक्ट पारंपरिक इंडियन लोक कला की हमेशा रहने वाली <strong>सुंदरता,<br />
-                  विरासत और कल्चरल गर्व को दिखाता है</strong>, जिसमें बारीक पैटर्न और <br />
-                  वाइब्रेंट <strong>मिरर वर्क</strong> है जो पीढ़ियों तक बोलता है।
-                </p>
+                  विरासत और कल्चरल गर्व को दिखाता है</strong>, जिसमें बारीक पैटर्न और 
+                  वाइब्रेंट <strong>मिरर वर्क</strong> है जो पीढ़ियों तक बोलता है।</p>
+                <p><strong>परिचय</strong></p>
+                <p><strong>लिप्पन आर्ट,</strong> जिसे मिट्टी और शीशे का काम भी कहा जाता है, <strong>भारत के गुजरात</strong> के कच्छ क्षेत्र की एक पारंपरिक दीवार कला है।
+                 पीढ़ियों से, इस शैली का इस्तेमाल गाँव के घरों, मंदिरों और हवेलियों को सुंदर बनाने के लिए किया जाता रहा है। आज, <strong>लिप्पन आर्ट</strong> सबसे पसंदीदा इंटीरियर डेकोर शैलियों में से एक बन गई है, 
+                 जो परंपरा को आधुनिक डिज़ाइन के साथ मिलाती है। मिट्टी के पैटर्न से लेकर चमकते शीशों तक, हर लिप्पन कलाकृति एक कहानी कहती है - प्रकृति, समुदाय, संस्कृति और कारीगरी की।</p>
+                 <p><strong>लिप्पन आर्ट का इतिहास</strong></p>
+                 <p>लिप्पन आर्ट की जड़ें सैकड़ों साल पुरानी हैं। इसे मूल रूप से रबारी समुदाय ने बनाया था, जो गाय के गोबर, मिट्टी और छोटे शीशों का इस्तेमाल करके मिट्टी के घरों की दीवारों को सजाते थे।</p>
+                 <p><strong>"लिप्पन"</strong> शब्द का मतलब है लगाना। पारंपरिक रूप से, महिलाएं जानवरों, पेड़ों, मंडलों, पक्षियों और ज्यामितीय डिज़ाइनों के मोटिफ बनाती थीं। इसका मकसद सिर्फ सजावट नहीं था, 
+                  बल्कि गर्मी को कंट्रोल करना भी था - मिट्टी की दीवारें कच्छ के रेगिस्तानी मौसम में घरों को ठंडा रखने में मदद करती थीं।</p>
               </motion.div>
 
             </div>
@@ -205,7 +223,9 @@ const Home = () => {
                 Why Choose Our Art
               </h2>
               <p className="text-lg text-deep-brown/70 max-w-2xl mx-auto">
-                Experience the authentic beauty of traditional Indian craftsmanship with modern artistic vision
+                We combine the timeless elegance of Lippan Art with modern creativity to bring visually striking works 
+                that fit perfectly in today’s homes. Each design is handcrafted using high-quality materials, 
+                ensuring durability, originality, and artistic detail that makes your décor truly stand out.
               </p>
             </motion.div>
 
