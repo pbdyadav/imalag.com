@@ -29,6 +29,7 @@ import CleaningTips from './pages/CleaningTips';
 import RabariPatterns from './pages/RabariPatterns';
 import EcoFriendlyArt from './pages/EcoFriendlyArt';
 import ColorTheory from './pages/ColorTheory';
+import HistoryOfLippan from './pages/HistoryOfLippan';
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
             <Route path="/blog/rabari-patterns" element={<RabariPatterns />} />
             <Route path="/blog/eco-friendly-art" element={<EcoFriendlyArt />} />
             <Route path="/blog/color-theory" element={<ColorTheory />} />
+            <Route path="/blog/history-of-lippan" element={<HistoryOfLippan />} />
             
           </Routes>
         </main>
