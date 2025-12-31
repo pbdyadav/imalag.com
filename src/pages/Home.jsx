@@ -41,7 +41,7 @@ const Home = () => {
 
         <meta
           name="description"
-          content="Shop premium Lippan art material, Lippan art kits, and raw materials handcrafted by Archana. Traditional Lippan Kaam, mirror work, MDF art, glass mosaic work, and custom wall décor. Fast delivery across India."
+          content="Shop premium Lippan art material, Lippan art kits, and raw materials handcrafted by Archana. Traditional Lippan Kaam, mirror work, MDF art, glass mosaic work, and custom wall decor. Fast delivery across India."
         />
 
         <meta
@@ -52,7 +52,7 @@ const Home = () => {
         <link rel="canonical" href="https://imalag.com/" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="Archana Lippan Art Gallery – Lippan Art, Kits & Raw Materials" />
+        <meta property="og:title" content="Archana Lippan Art Gallery - Lippan Art, Kits & Raw Materials" />
         <meta property="og:description" content="Premium handcrafted Lippan art materials, kits, and traditional mirror work pieces." />
         <meta property="og:image" content="https://imalag.com/ALAG_Home.png" />
         <meta property="og:url" content="https://imalag.com/" />
@@ -60,8 +60,8 @@ const Home = () => {
 
         {/* Twitter / Instagram */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Archana Lippan Art Gallery – Lippan Art, Kits & Materials" />
-        <meta name="twitter:description" content="Shop premium Lippan art materials, kits, raw materials & handcrafted décor." />
+        <meta name="twitter:title" content="Archana Lippan Art Gallery - Lippan Art, Kits & Materials" />
+        <meta name="twitter:description" content="Shop premium Lippan art materials, kits, raw materials & handcrafted decor." />
         <meta name="twitter:image" content="https://imalag.com/ALAG_Home.png" />
 
         {/* JSON-LD */}
@@ -224,8 +224,8 @@ const Home = () => {
               </h2>
               <p className="text-lg text-deep-brown/70 max-w-2xl mx-auto">
                 We combine the timeless elegance of Lippan Art with modern creativity to bring visually striking works 
-                that fit perfectly in today’s homes. Each design is handcrafted using high-quality materials, 
-                ensuring durability, originality, and artistic detail that makes your décor truly stand out.
+                that fit perfectly in today's homes. Each design is handcrafted using high-quality materials, 
+                ensuring durability, originality, and artistic detail that makes your decor truly stand out.
               </p>
             </motion.div>
 

@@ -165,21 +165,21 @@ const Gallery = () => {
               <span className="block mb-4">
                 Step into a world of heritage, creativity, and artistic excellence. Our
                 <strong> Art Gallery </strong> showcases a curated collection of handcrafted
-                <strong> Lippan mud art, mirror mosaic pieces, glass décor,</strong> and
+                <strong> Lippan mud art, mirror mosaic pieces, glass decor,</strong> and
                 <strong> custom artworks </strong> created using traditional Indian craft techniques.
               </span>
 
               <span className="block mb-4">
                 Each artwork reflects the cultural beauty of Gujarat's folk traditions,
                 blended with modern design, premium craftsmanship, and attention to detail —
-                perfect for luxury interiors, gifting, décor styling, and creative inspiration.
+                perfect for luxury interiors, gifting, decor styling, and creative inspiration.
               </span>
 
               <h2 className="text-xl font-semibold text-terracotta mt-6">✨ What You'll Experience in Our Gallery:</h2>
               <ul className="list-disc ml-6 mt-2 space-y-1">
                 <li>Authentic handmade Lippan mud and mirror art</li>
-                <li>Elegant mirror mosaic wall décor pieces</li>
-                <li>Exclusive glass work and MDF décor units</li>
+                <li>Elegant mirror mosaic wall decor pieces</li>
+                <li>Exclusive glass work and MDF decor units</li>
                 <li>Rare custom artwork designs made for interiors</li>
                 <li>Art inspired by culture, nature, and spirituality</li>
               </ul>

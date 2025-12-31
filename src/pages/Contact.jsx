@@ -236,7 +236,7 @@ const Contact = () => {
                     <MessageCircle className="w-5 h-5" />
                   </a>
                   <a
-                    href="https://instagram.com/archanalippanart"
+                    href="https://www.instagram.com/imalag_art/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-pink-600 text-white rounded-full hover:bg-pink-700 transition-colors"
