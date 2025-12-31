@@ -32,7 +32,7 @@ const Footer = () => {
                 <MessageCircle size={20} />
               </a>
               <a
-                href="https://instagram.com/archanalippanart"
+                href="https://www.instagram.com/imalag_art/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-pink-600 rounded-full hover:bg-pink-700 transition-colors"
