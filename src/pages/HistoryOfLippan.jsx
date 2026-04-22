@@ -1,8 +1,14 @@
 import React from 'react';
+import SEO from '@/components/SEO';
 
 const HistoryOfLippan = () => {
   return (
     <div className="bg-cream min-h-screen pt-28 pb-12 px-4">
+      <SEO
+        title="The Ancient History and Cultural Significance of Lippan Kaam"
+        description="Read about the history of Lippan Kaam, its roots in Kutch, and the cultural meanings behind this traditional mud and mirror art."
+        url="https://imalag.com/blog/history-of-lippan"
+      />
       <article className="max-w-4xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg border-t-8 border-terracotta">
         <header className="mb-10 text-center">
           <h1 className="font-playfair text-3xl md:text-5xl text-deep-brown mb-4 leading-tight">

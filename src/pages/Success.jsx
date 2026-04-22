@@ -3,6 +3,7 @@ import { useCart } from '@/hooks/useCart';
 import { useNavigate } from 'react-router-dom';
 import supabase from "@/components/supabase";
 import emailjs from '@emailjs/browser';
+import SEO from '@/components/SEO';
 
 const Success = () => {
   const { cartItems, clearCart } = useCart();
@@ -87,6 +88,12 @@ const Success = () => {
   if (success) {
     return (
       <div className="max-w-2xl mx-auto text-center py-12">
+        <SEO
+          title="Order Success"
+          description="Order confirmation and next steps."
+          url="https://imalag.com/success"
+          noindex
+        />
         <h2 className="text-3xl font-bold text-terracotta mb-4">🎉 Order Placed!</h2>
         <p className="mb-6">Thank you for your purchase. We will contact you soon.</p>
         <button

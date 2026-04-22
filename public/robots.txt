@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /success
+Disallow: /under-construction
 
 Sitemap: https://imalag.com/sitemap.xml

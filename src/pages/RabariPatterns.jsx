@@ -1,8 +1,14 @@
 import React from 'react';
+import SEO from '@/components/SEO';
 
 const RabariPatterns = () => {
     return (
         <div className="bg-cream min-h-screen pt-28 pb-12 px-4">
+            <SEO
+                title="The Sacred Geometry of the Rabari Tribe"
+                description="Decode the traditional motifs, symmetry, and symbolism behind Rabari-inspired Lippan art patterns."
+                url="https://imalag.com/blog/rabari-patterns"
+            />
             <article className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg border-t-8 border-terracotta">
                 <header className="mb-8">
                     <h1 className="font-playfair text-3xl md:text-5xl text-deep-brown mb-4">

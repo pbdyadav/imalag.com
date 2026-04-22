@@ -19,7 +19,6 @@ import RefundPolicy from "./pages/Legal/RefundPolicy";
 import Disclaimer from "./pages/Legal/Disclaimer";
 import ShippingPolicy from "@/pages/Legal/ShippingPolicy.jsx";
 import Blog from './pages/Blog'; // Adjust path based on your folder
-import BlogPost from './pages/BlogPost'; // Import the new page
 import ToolsForLippan from './pages/ToolsForLippan';
 import MudGlueMix from './pages/MudGlueMix';
 import MirrorSymbolism from './pages/MirrorSymbolism';
@@ -52,7 +51,6 @@ function App() {
             <Route path="/shipping-policy" element={<ShippingPolicy />} />
             <Route path="/disclaimer" element={<Disclaimer />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/history-of-lippan" element={<BlogPost />} /> {/* New Route */}
             <Route path="/blog/essential-tools" element={<ToolsForLippan />} />
             <Route path="/blog/mud-glue-mix" element={<MudGlueMix />} />
             <Route path="/blog/mirror-symbolism" element={<MirrorSymbolism />} />

@@ -1,8 +1,14 @@
 import React from 'react';
+import SEO from '@/components/SEO';
 
 const MudGlueMix = () => {
     return (
         <div className="bg-cream min-h-screen pt-28 pb-12 px-4">
+            <SEO
+                title="The Secret Ratio: Preparing the Perfect Mud-Glue Mix"
+                description="Discover the right mud and glue mix for durable Lippan art, with practical tips on ingredients, kneading, and storage."
+                url="https://imalag.com/blog/mud-glue-mix"
+            />
             <article className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg border-t-8 border-gold">
                 <header className="mb-8">
                     <h1 className="font-playfair text-3xl md:text-5xl text-deep-brown mb-4">

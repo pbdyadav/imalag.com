@@ -1,8 +1,14 @@
 import React from 'react';
+import SEO from '@/components/SEO';
 
 const CleaningTips = () => {
     return (
         <div className="bg-cream min-h-screen pt-28 pb-12 px-4">
+            <SEO
+                title="Cleaning and Preserving Your Lippan Mud Art"
+                description="Practical care tips to clean, preserve, and protect Lippan mud art so it stays beautiful for years."
+                url="https://imalag.com/blog/cleaning-tips"
+            />
             <article className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg border-t-8 border-gold">
                 <header className="mb-8">
                     <h1 className="font-playfair text-3xl md:text-5xl text-deep-brown mb-4">

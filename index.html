@@ -6,19 +6,34 @@
     <meta name="generator" content="Hostinger Horizons" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IMALAG - Lippan Art</title>
+    <script>
+      (function () {
+        var hostname = window.location.hostname;
+        var isLocalHost =
+          hostname === "localhost" ||
+          hostname === "127.0.0.1" ||
+          hostname === "[::1]";
+        var clientId = "ca-pub-7180154058776132";
+        window.__IMALAG_ADSENSE_ENABLED__ = !isLocalHost;
 
-    <!-- ⭐ GOOGLE ADSENSE VERIFICATION CODE ⭐ -->
-    <script async 
-	src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7180154058776132"
-     crossorigin="anonymous">
-	</script>
-  <!-- Auto Ads -->
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-7180154058776132",
-    enable_page_level_ads: true
-  });
-</script>
+        if (!isLocalHost) {
+          window.adsbygoogle = window.adsbygoogle || [];
+
+          var script = document.createElement("script");
+          script.async = true;
+          script.crossOrigin = "anonymous";
+          script.src =
+            "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" +
+            clientId;
+          document.head.appendChild(script);
+
+          window.adsbygoogle.push({
+            google_ad_client: clientId,
+            enable_page_level_ads: true,
+          });
+        }
+      })();
+    </script>
   </head>
 
   <body>

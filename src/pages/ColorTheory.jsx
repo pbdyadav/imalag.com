@@ -1,8 +1,14 @@
 import React from 'react';
+import SEO from '@/components/SEO';
 
 const ColorTheory = () => {
     return (
         <div className="bg-cream min-h-screen pt-28 pb-12 px-4">
+            <SEO
+                title="Choosing the Perfect Colors for Your Lippan Art"
+                description="Pick the right palette for Lippan art, from traditional white to terracotta and modern jewel tones."
+                url="https://imalag.com/blog/color-theory"
+            />
             <article className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg border-t-8 border-gold">
                 <header className="mb-8">
                     <h1 className="font-playfair text-3xl md:text-5xl text-deep-brown mb-4">

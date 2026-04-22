@@ -2,7 +2,15 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
-export default function SEO({ title, description, url, image, product }) {
+function getCurrentURL() {
+  if (typeof window === 'undefined') {
+    return 'https://imalag.com/';
+  }
+
+  return `${window.location.origin}${window.location.pathname}`;
+}
+
+export default function SEO({ title, description, url, image, product, noindex = false, type = 'website' }) {
   const siteName = "Archana Lippan Art Gallery";
 
   const defaultTitle = "Buy Lippan Art Material, Kits & Raw Materials | Archana Lippan Art Gallery";
@@ -13,8 +21,9 @@ export default function SEO({ title, description, url, image, product }) {
 
   const finalTitle = title ? `${title} — ${siteName}` : defaultTitle;
   const finalDescription = description || defaultDescription;
-  const finalURL = url || "https://www.imalag.com/";
+  const finalURL = url || getCurrentURL();
   const finalImage = image || "https://imalag.com/ALAG_Home.png";
+  const robotsContent = noindex ? "noindex,nofollow" : "index,follow";
 
   /* ------------------------------
      🔹 Schema: LocalBusiness
@@ -111,10 +120,10 @@ export default function SEO({ title, description, url, image, product }) {
       <link rel="canonical" href={finalURL} />
 
       {/* Robots */}
-      <meta name="robots" content="index,follow" />
+      <meta name="robots" content={robotsContent} />
 
       {/* Open Graph */}
-      <meta property="og:type" content="website" />
+      <meta property="og:type" content={type} />
       <meta property="og:site_name" content={siteName} />
       <meta property="og:title" content={finalTitle} />
       <meta property="og:description" content={finalDescription} />

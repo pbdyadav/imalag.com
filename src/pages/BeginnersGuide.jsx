@@ -1,8 +1,14 @@
 import React from 'react';
+import SEO from '@/components/SEO';
 
 const BeginnersGuide = () => {
     return (
         <div className="bg-cream min-h-screen pt-28 pb-12 px-4">
+            <SEO
+                title="Beginner's Guide: Creating Your First Lippan Art Piece"
+                description="A step-by-step beginner guide for creating your first Lippan art piece with simple tools, coils, mirrors, and finishing tips."
+                url="https://imalag.com/blog/beginners-guide"
+            />
             <article className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg border-t-8 border-gold">
                 <header className="mb-8 text-center">
                     <h1 className="font-playfair text-3xl md:text-5xl text-deep-brown mb-4">
