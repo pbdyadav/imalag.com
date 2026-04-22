@@ -91,7 +91,7 @@ const Success = () => {
         <SEO
           title="Order Success"
           description="Order confirmation and next steps."
-          url="https://imalag.com/success"
+          url="https://www.imalag.com/success"
           noindex
         />
         <h2 className="text-3xl font-bold text-terracotta mb-4">🎉 Order Placed!</h2>

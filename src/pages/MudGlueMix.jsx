@@ -7,7 +7,7 @@ const MudGlueMix = () => {
             <SEO
                 title="The Secret Ratio: Preparing the Perfect Mud-Glue Mix"
                 description="Discover the right mud and glue mix for durable Lippan art, with practical tips on ingredients, kneading, and storage."
-                url="https://imalag.com/blog/mud-glue-mix"
+                url="https://www.imalag.com/blog/mud-glue-mix"
             />
             <article className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg border-t-8 border-gold">
                 <header className="mb-8">

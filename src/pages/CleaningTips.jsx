@@ -7,7 +7,7 @@ const CleaningTips = () => {
             <SEO
                 title="Cleaning and Preserving Your Lippan Mud Art"
                 description="Practical care tips to clean, preserve, and protect Lippan mud art so it stays beautiful for years."
-                url="https://imalag.com/blog/cleaning-tips"
+                url="https://www.imalag.com/blog/cleaning-tips"
             />
             <article className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg border-t-8 border-gold">
                 <header className="mb-8">

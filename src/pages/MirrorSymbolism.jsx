@@ -7,7 +7,7 @@ const MirrorSymbolism = () => {
             <SEO
                 title="The Symbolism of Mirror Shapes"
                 description="Explore the meaning behind circles, diamonds, triangles, and squares in traditional Lippan mirror work."
-                url="https://imalag.com/blog/mirror-symbolism"
+                url="https://www.imalag.com/blog/mirror-symbolism"
             />
             <article className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg border-t-8 border-gold">
                 <h1 className="font-playfair text-3xl md:text-5xl text-deep-brown mb-6">

@@ -7,7 +7,7 @@ const EcoFriendlyArt = () => {
             <SEO
                 title="Eco-Friendly Decor: Why Lippan Art is the Future of Sustainable Interiors"
                 description="Learn why Lippan art is an eco-friendly, long-lasting decor choice made from earth-based materials and traditional craftsmanship."
-                url="https://imalag.com/blog/eco-friendly-art"
+                url="https://www.imalag.com/blog/eco-friendly-art"
             />
             <article className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg border-t-8 border-terracotta">
                 <header className="mb-8">

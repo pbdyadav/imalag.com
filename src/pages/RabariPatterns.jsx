@@ -7,7 +7,7 @@ const RabariPatterns = () => {
             <SEO
                 title="The Sacred Geometry of the Rabari Tribe"
                 description="Decode the traditional motifs, symmetry, and symbolism behind Rabari-inspired Lippan art patterns."
-                url="https://imalag.com/blog/rabari-patterns"
+                url="https://www.imalag.com/blog/rabari-patterns"
             />
             <article className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg border-t-8 border-terracotta">
                 <header className="mb-8">

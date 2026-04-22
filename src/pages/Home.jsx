@@ -49,20 +49,20 @@ const Home = () => {
           content="Lippan art material, Lippan art kit, Lippan art raw material, Lippan Kaam, Mud mirror art, Buy Lippan art online, Mirror mosaic materials, MDF art tools, Lippan clay"
         />
 
-        <link rel="canonical" href="https://imalag.com/" />
+        <link rel="canonical" href="https://www.imalag.com/" />
 
         {/* Open Graph */}
         <meta property="og:title" content="Archana Lippan Art Gallery - Lippan Art, Kits & Raw Materials" />
         <meta property="og:description" content="Premium handcrafted Lippan art materials, kits, and traditional mirror work pieces." />
-        <meta property="og:image" content="https://imalag.com/ALAG_Home.png" />
-        <meta property="og:url" content="https://imalag.com/" />
+        <meta property="og:image" content="https://www.imalag.com/ALAG_Home.png" />
+        <meta property="og:url" content="https://www.imalag.com/" />
         <meta property="og:type" content="website" />
 
         {/* Twitter / Instagram */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Archana Lippan Art Gallery - Lippan Art, Kits & Materials" />
         <meta name="twitter:description" content="Shop premium Lippan art materials, kits, raw materials & handcrafted decor." />
-        <meta name="twitter:image" content="https://imalag.com/ALAG_Home.png" />
+        <meta name="twitter:image" content="https://www.imalag.com/ALAG_Home.png" />
 
         {/* JSON-LD */}
         <script type="application/ld+json">
@@ -71,8 +71,8 @@ const Home = () => {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Archana Lippan Art Gallery",
-        "url": "https://imalag.com",
-        "image": "https://imalag.com/ALAG_Home.png",
+        "url": "https://www.imalag.com",
+        "image": "https://www.imalag.com/ALAG_Home.png",
         "description": "Premium Lippan art materials, kits, raw materials and handcrafted Lippan Kaam by artisan Archana.",
         "address": {
           "@type": "PostalAddress",

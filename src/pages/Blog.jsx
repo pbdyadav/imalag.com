@@ -91,7 +91,7 @@ const Blog = () => {
       <SEO
         title="Blog"
         description="Read practical guides, stories, and inspiration about Lippan art, mud mirror work, materials, and traditional Indian folk decor."
-        url="https://imalag.com/blog"
+        url="https://www.imalag.com/blog"
       />
       <div className="max-w-7xl mx-auto px-4">
         <h1 className="font-playfair text-4xl md:text-5xl text-center text-deep-brown mb-4">Art & Heritage Blog</h1>

@@ -4,10 +4,18 @@ import { Helmet } from 'react-helmet-async';
 
 function getCurrentURL() {
   if (typeof window === 'undefined') {
-    return 'https://imalag.com/';
+    return 'https://www.imalag.com/';
   }
 
-  return `${window.location.origin}${window.location.pathname}`;
+  const current = `${window.location.origin}${window.location.pathname}`;
+  return current.replace('http://imalag.com', 'https://www.imalag.com')
+    .replace('https://imalag.com', 'https://www.imalag.com');
+}
+
+function normalizeCanonicalURL(url) {
+  return String(url)
+    .replace('http://imalag.com', 'https://www.imalag.com')
+    .replace('https://imalag.com', 'https://www.imalag.com');
 }
 
 export default function SEO({ title, description, url, image, product, noindex = false, type = 'website' }) {
@@ -21,8 +29,8 @@ export default function SEO({ title, description, url, image, product, noindex =
 
   const finalTitle = title ? `${title} — ${siteName}` : defaultTitle;
   const finalDescription = description || defaultDescription;
-  const finalURL = url || getCurrentURL();
-  const finalImage = image || "https://imalag.com/ALAG_Home.png";
+  const finalURL = normalizeCanonicalURL(url || getCurrentURL());
+  const finalImage = image || "https://www.imalag.com/ALAG_Home.png";
   const robotsContent = noindex ? "noindex,nofollow" : "index,follow";
 
   /* ------------------------------
@@ -33,7 +41,7 @@ export default function SEO({ title, description, url, image, product, noindex =
     "@type": "LocalBusiness",
     "name": siteName,
     "image": finalImage,
-    "url": "https://imalag.com/",
+    "url": "https://www.imalag.com/",
     "description": defaultDescription,
     "address": {
       "@type": "PostalAddress",
@@ -48,10 +56,10 @@ export default function SEO({ title, description, url, image, product, noindex =
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": siteName,
-    "url": "https://imalag.com/",
+    "url": "https://www.imalag.com/",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://imalag.com/?s={search_term_string}",
+      "target": "https://www.imalag.com/?s={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   };
@@ -67,7 +75,7 @@ export default function SEO({ title, description, url, image, product, noindex =
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://imalag.com/"
+        "item": "https://www.imalag.com/"
       },
       ...(title
         ? [{

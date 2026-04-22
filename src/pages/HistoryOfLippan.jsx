@@ -7,7 +7,7 @@ const HistoryOfLippan = () => {
       <SEO
         title="The Ancient History and Cultural Significance of Lippan Kaam"
         description="Read about the history of Lippan Kaam, its roots in Kutch, and the cultural meanings behind this traditional mud and mirror art."
-        url="https://imalag.com/blog/history-of-lippan"
+        url="https://www.imalag.com/blog/history-of-lippan"
       />
       <article className="max-w-4xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg border-t-8 border-terracotta">
         <header className="mb-10 text-center">

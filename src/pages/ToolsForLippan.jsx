@@ -8,7 +8,7 @@ const ToolsForLippan = () => {
             <SEO
                 title="7 Essential Tools Every Lippan Artist Needs"
                 description="Learn the core tools and materials every Lippan artist needs, from MDF boards and binders to mirrors and varnish."
-                url="https://imalag.com/blog/essential-tools"
+                url="https://www.imalag.com/blog/essential-tools"
             />
             <article className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg border-t-8 border-gold">
                 <h1 className="font-playfair text-3xl md:text-5xl text-deep-brown mb-6">

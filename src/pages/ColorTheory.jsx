@@ -7,7 +7,7 @@ const ColorTheory = () => {
             <SEO
                 title="Choosing the Perfect Colors for Your Lippan Art"
                 description="Pick the right palette for Lippan art, from traditional white to terracotta and modern jewel tones."
-                url="https://imalag.com/blog/color-theory"
+                url="https://www.imalag.com/blog/color-theory"
             />
             <article className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg border-t-8 border-gold">
                 <header className="mb-8">

@@ -3,4 +3,4 @@ Allow: /
 Disallow: /success
 Disallow: /under-construction
 
-Sitemap: https://imalag.com/sitemap.xml
+Sitemap: https://www.imalag.com/sitemap.xml

@@ -7,7 +7,7 @@ const ModernInteriors = () => {
             <SEO
                 title="Lippan Art in Modern Interior Design"
                 description="See how Lippan art can fit into contemporary interiors with white-on-white textures, bold color accents, and sustainable style."
-                url="https://imalag.com/blog/modern-interiors"
+                url="https://www.imalag.com/blog/modern-interiors"
             />
             <article className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg border-t-8 border-terracotta">
                 <header className="mb-8">

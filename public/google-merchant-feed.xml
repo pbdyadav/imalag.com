@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+  <channel>
+    <title>Archana Lippan Art Gallery Product Feed</title>
+    <link>https://www.imalag.com</link>
+    <description>Archana Lippan Art Gallery product catalog for Google Merchant Center</description>
+    <item>
+      <g:id>1</g:id>
+      <title>Moon Lippan Art Handcrafted</title>
+      <description>We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home decor, and adding a touch of traditional Indian elegance to any wall.</description>
+      <link>https://www.imalag.com/product/1</link>
+      <g:image_link>https://www.imalag.com/images/Moon%20Art%20Photo.jpg</g:image_link>
+      <g:price>4500.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>lippan</g:product_type>
+    </item>
+    <item>
+      <g:id>2</g:id>
+      <title>Black Buddha with Holo Light Efects </title>
+      <description>Majestic Black Buddha design with Holo Light Efects for Wall decoration.</description>
+      <link>https://www.imalag.com/product/2</link>
+      <g:image_link>https://www.imalag.com/images/products/Art11A.png</g:image_link>
+      <g:price>3800.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>lippan</g:product_type>
+    </item>
+    <item>
+      <g:id>3</g:id>
+      <title>Green Buddha with Holo Light Efects</title>
+      <description>Majestic Green Tree Buddha design with Holo Light Efects for Wall decoration.</description>
+      <link>https://www.imalag.com/product/3</link>
+      <g:image_link>https://www.imalag.com/images/products/Art12A.png</g:image_link>
+      <g:price>3800.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>lippan</g:product_type>
+    </item>
+    <item>
+      <g:id>4</g:id>
+      <title>Spiritual Buddha with Tree</title>
+      <description>Spiritual Buddha with tree and mirror in black colors.</description>
+      <link>https://www.imalag.com/product/4</link>
+      <g:image_link>https://www.imalag.com/images/products/Art9.png</g:image_link>
+      <g:price>1100.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>mdf</g:product_type>
+    </item>
+    <item>
+      <g:id>5</g:id>
+      <title>White Lippan Art</title>
+      <description>Stunning mandala pattern created with mirror pieces.</description>
+      <link>https://www.imalag.com/product/5</link>
+      <g:image_link>https://www.imalag.com/images/products/Art8.png</g:image_link>
+      <g:price>700.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>mosaic</g:product_type>
+    </item>
+    <item>
+      <g:id>6</g:id>
+      <title>Clay Golder Treee</title>
+      <description>Vibrant Clay work in Black and Gold colour artwork with traditional Indian motifs.</description>
+      <link>https://www.imalag.com/product/6</link>
+      <g:image_link>https://www.imalag.com/images/products/Art10.png</g:image_link>
+      <g:price>800.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>lippan</g:product_type>
+    </item>
+    <item>
+      <g:id>7</g:id>
+      <title>Lippan Art Work as Per Clint </title>
+      <description>We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home decor, and adding a touch of traditional Indian elegance to any wall.</description>
+      <link>https://www.imalag.com/product/7</link>
+      <g:image_link>https://www.imalag.com/images/products/Lippan%20Art%20work%20for%20Clint.jpg</g:image_link>
+      <g:price>2500.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>lippan</g:product_type>
+    </item>
+    <item>
+      <g:id>8</g:id>
+      <title>Lippan Art Work as Per Clint 2 </title>
+      <description>We create beautiful custom Lippan art pieces specially designed as per your choice, space, and theme. Perfect for wedding gifting, home decor, and adding a touch of traditional Indian elegance to any wall.</description>
+      <link>https://www.imalag.com/product/8</link>
+      <g:image_link>https://www.imalag.com/images/products/Lippan%20Art%20work%20for%20Clint2.jpg</g:image_link>
+      <g:price>2000.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>Lippan</g:product_type>
+    </item>
+    <item>
+      <g:id>9</g:id>
+      <title>Traditional Mandla Lippan</title>
+      <description>Beautiful design with intricate mirror work on clay base.</description>
+      <link>https://www.imalag.com/product/9</link>
+      <g:image_link>https://www.imalag.com/images/products/Art7.png</g:image_link>
+      <g:price>700.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>lippan</g:product_type>
+    </item>
+    <item>
+      <g:id>10</g:id>
+      <title>Ornament Box</title>
+      <description>MDF Ornament Box with glass work.</description>
+      <link>https://www.imalag.com/product/10</link>
+      <g:image_link>https://www.imalag.com/images/products/Art13.png</g:image_link>
+      <g:price>200.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>glass</g:product_type>
+    </item>
+    <item>
+      <g:id>11</g:id>
+      <title>Ornament Box</title>
+      <description>MDF Ornament Box with glass work.</description>
+      <link>https://www.imalag.com/product/11</link>
+      <g:image_link>https://www.imalag.com/images/products/Art14.png</g:image_link>
+      <g:price>200.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>glass</g:product_type>
+    </item>
+    <item>
+      <g:id>12</g:id>
+      <title>Ornament Box</title>
+      <description>MDF Ornament Box with glass work.</description>
+      <link>https://www.imalag.com/product/12</link>
+      <g:image_link>https://www.imalag.com/images/products/Art15.png</g:image_link>
+      <g:price>200.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>glass</g:product_type>
+    </item>
+    <item>
+      <g:id>96</g:id>
+      <title>MDF Art Box 12 X 12 Inch - Perfect Base for Creative Projects </title>
+      <description>Create stunning handcrafted masterpieces with this high-quality 6 X 6 inch MDF box, specially designed for Lippan art, mirror mosaic, dot painting, decoupage, mandala work, and mixed-media designs. Made from durable, smooth-finish MDF wood, this box provides a strong and steady surface for detailed artwork while giving a premium look to the final product. Ideal for jewelry storage, gift packaging, home decor, and customized art pieces, this box is perfect for artists, hobbyists, and creators who want to transform simple wood into beautiful, functional art.</description>
+      <link>https://www.imalag.com/product/96</link>
+      <g:image_link>https://www.imalag.com/images/products/MDF%204X4%20Inch%20Box4.png</g:image_link>
+      <g:price>220.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>mdf</g:product_type>
+    </item>
+    <item>
+      <g:id>97</g:id>
+      <title>MDF Art Box 9.5 X 12 Inch - Perfect Base for Creative Projects </title>
+      <description>Create stunning handcrafted masterpieces with this high-quality 6 X 6 inch MDF box, specially designed for Lippan art, mirror mosaic, dot painting, decoupage, mandala work, and mixed-media designs. Made from durable, smooth-finish MDF wood, this box provides a strong and steady surface for detailed artwork while giving a premium look to the final product. Ideal for jewelry storage, gift packaging, home decor, and customized art pieces, this box is perfect for artists, hobbyists, and creators who want to transform simple wood into beautiful, functional art.</description>
+      <link>https://www.imalag.com/product/97</link>
+      <g:image_link>https://www.imalag.com/images/products/MDF%204X4%20Inch%20Box4.png</g:image_link>
+      <g:price>160.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>mdf</g:product_type>
+    </item>
+    <item>
+      <g:id>98</g:id>
+      <title>MDF Art Box 8 X 8 Inch - Perfect Base for Creative Projects </title>
+      <description>Create stunning handcrafted masterpieces with this high-quality 6 X 6 inch MDF box, specially designed for Lippan art, mirror mosaic, dot painting, decoupage, mandala work, and mixed-media designs. Made from durable, smooth-finish MDF wood, this box provides a strong and steady surface for detailed artwork while giving a premium look to the final product. Ideal for jewelry storage, gift packaging, home decor, and customized art pieces, this box is perfect for artists, hobbyists, and creators who want to transform simple wood into beautiful, functional art.</description>
+      <link>https://www.imalag.com/product/98</link>
+      <g:image_link>https://www.imalag.com/images/products/MDF%204X4%20Inch%20Box4.png</g:image_link>
+      <g:price>120.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>mdf</g:product_type>
+    </item>
+    <item>
+      <g:id>99</g:id>
+      <title>MDF Art Box 6 X 6 Inch - Perfect Base for Creative Projects </title>
+      <description>Create stunning handcrafted masterpieces with this high-quality 6 X 6 inch MDF box, specially designed for Lippan art, mirror mosaic, dot painting, decoupage, mandala work, and mixed-media designs. Made from durable, smooth-finish MDF wood, this box provides a strong and steady surface for detailed artwork while giving a premium look to the final product. Ideal for jewelry storage, gift packaging, home decor, and customized art pieces, this box is perfect for artists, hobbyists, and creators who want to transform simple wood into beautiful, functional art.</description>
+      <link>https://www.imalag.com/product/99</link>
+      <g:image_link>https://www.imalag.com/images/products/MDF%204X4%20Inch%20Box4.png</g:image_link>
+      <g:price>90.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>mdf</g:product_type>
+    </item>
+    <item>
+      <g:id>100</g:id>
+      <title>MDF Art Circle 12 Inch 6mm- Perfect Base for Creative Projects </title>
+      <description>MDF Board for Art and Craft - Wood Round/Cercle for Art &amp; Craft | Resin, Lippan, Mandala, Painting, Wall Hanging, Clock Making, Decoration, Create stunning handcrafted masterpieces with this high-quality 12 Inch 6mm MDF Cercle, this Cercle provides a strong and steady surface for detailed artwork while giving a premium look to the final product. Ideal this Cercle is perfect for artists, hobbyists, and creators who want to transform simple wood into beautiful, functional art.</description>
+      <link>https://www.imalag.com/product/100</link>
+      <g:image_link>https://www.imalag.com/images/products/Circle%206mm%2012%20Inch.png</g:image_link>
+      <g:price>99.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>mdf</g:product_type>
+    </item>
+    <item>
+      <g:id>101</g:id>
+      <title>MDF Art Circle 12 Inch 8mm- Perfect Base for Creative Projects </title>
+      <description>MDF Board for Art and Craft - Wood Round/Cercle for Art &amp; Craft | Resin, Lippan, Mandala, Painting, Wall Hanging, Clock Making, Decoration, Create stunning handcrafted masterpieces with this high-quality 12 Inch 8mm MDF Cercle, this Cercle provides a strong and steady surface for detailed artwork while giving a premium look to the final product. Ideal this Cercle is perfect for artists, hobbyists, and creators who want to transform simple wood into beautiful, functional art.</description>
+      <link>https://www.imalag.com/product/101</link>
+      <g:image_link>https://www.imalag.com/images/products/Circle%208mm%2012%20Inch.png</g:image_link>
+      <g:price>120.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>mdf</g:product_type>
+    </item>
+    <item>
+      <g:id>102</g:id>
+      <title>MDF Art Circle 16 Inch 8mm- Perfect Base for Creative Projects </title>
+      <description>MDF Board for Art and Craft - Wood Round/Cercle for Art &amp; Craft | Resin, Lippan, Mandala, Painting, Wall Hanging, Clock Making, Decoration, Create stunning handcrafted masterpieces with this high-quality 16 Inch 8mm MDF Cercle, this Cercle provides a strong and steady surface for detailed artwork while giving a premium look to the final product. Ideal this Cercle is perfect for artists, hobbyists, and creators who want to transform simple wood into beautiful, functional art.</description>
+      <link>https://www.imalag.com/product/102</link>
+      <g:image_link>https://www.imalag.com/images/products/Circle%208mm%2016%20Inch.png</g:image_link>
+      <g:price>200.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>mdf</g:product_type>
+    </item>
+    <item>
+      <g:id>150</g:id>
+      <title>Round/Circle Shape Glass mirrors for Lippan Art / Mandala Art </title>
+      <description>Enhance your creative projects with these premium-quality circle-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you&apos;re designing wall panels, decorative frames, or handcrafted home decor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.</description>
+      <link>https://www.imalag.com/product/150</link>
+      <g:image_link>https://www.imalag.com/images/products/RoundShapeMirror.png</g:image_link>
+      <g:price>99.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>raw</g:product_type>
+    </item>
+    <item>
+      <g:id>151</g:id>
+      <title>Square Shape Glass Mirrors for Lippan Art / Mandala Art</title>
+      <description>Enhance your creative projects with these premium-quality Square-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you&apos;re designing wall panels, decorative frames, or handcrafted home decor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.</description>
+      <link>https://www.imalag.com/product/151</link>
+      <g:image_link>https://www.imalag.com/images/products/SQShapeMirror.png</g:image_link>
+      <g:price>99.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>raw</g:product_type>
+    </item>
+    <item>
+      <g:id>152</g:id>
+      <title>Drop/Tilak Shape Mirror Silver Glass</title>
+      <description>Enhance your creative projects with these premium-quality Drop/Tilak-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you&apos;re designing wall panels, decorative frames, or handcrafted home decor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.</description>
+      <link>https://www.imalag.com/product/152</link>
+      <g:image_link>https://www.imalag.com/images/products/TikaShapeMirror.png</g:image_link>
+      <g:price>99.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>raw</g:product_type>
+    </item>
+    <item>
+      <g:id>153</g:id>
+      <title>Rectangle Shape Mirror Silver Glass</title>
+      <description>Enhance your creative projects with these premium-quality Drop/Tilak-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you&apos;re designing wall panels, decorative frames, or handcrafted home decor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.</description>
+      <link>https://www.imalag.com/product/153</link>
+      <g:image_link>https://www.imalag.com/images/products/RTShapeMirror.png</g:image_link>
+      <g:price>99.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>raw</g:product_type>
+    </item>
+    <item>
+      <g:id>154</g:id>
+      <title>Life Shape Mirror Silver Glass</title>
+      <description>Enhance your creative projects with these premium-quality Life-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you&apos;re designing wall panels, decorative frames, or handcrafted home decor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.</description>
+      <link>https://www.imalag.com/product/154</link>
+      <g:image_link>https://www.imalag.com/images/products/LifeShapeMirror.png</g:image_link>
+      <g:price>99.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>raw</g:product_type>
+    </item>
+    <item>
+      <g:id>155</g:id>
+      <title>Triangle Shape Mirror Silver Glass</title>
+      <description>Enhance your creative projects with these premium-quality Triangle-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you&apos;re designing wall panels, decorative frames, or handcrafted home decor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.</description>
+      <link>https://www.imalag.com/product/155</link>
+      <g:image_link>https://www.imalag.com/images/products/TryShapeMirror.png</g:image_link>
+      <g:price>99.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>raw</g:product_type>
+    </item>
+    <item>
+      <g:id>156</g:id>
+      <title>Rhombus/diamond Shape Mirror Silver Glass</title>
+      <description>Enhance your creative projects with these premium-quality Rhombus/Diamond-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you&apos;re designing wall panels, decorative frames, or handcrafted home decor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.</description>
+      <link>https://www.imalag.com/product/156</link>
+      <g:image_link>https://www.imalag.com/images/products/DimShapeMirror.png</g:image_link>
+      <g:price>99.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>raw</g:product_type>
+    </item>
+    <item>
+      <g:id>157</g:id>
+      <title>Half Moon Shape Mirror Silver Glass</title>
+      <description>Enhance your creative projects with these premium-quality Half Moon-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you&apos;re designing wall panels, decorative frames, or handcrafted home decor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.</description>
+      <link>https://www.imalag.com/product/157</link>
+      <g:image_link>https://www.imalag.com/images/products/HMoonShapeMirror.png</g:image_link>
+      <g:price>99.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>raw</g:product_type>
+    </item>
+    <item>
+      <g:id>158</g:id>
+      <title>Long Drop/Tilak Shape Mirror Silver Glass</title>
+      <description>Enhance your creative projects with these premium-quality Half Long Drop/Tilak-shaped glass mirrors, specially crafted for traditional Lippan Art and intricate Mandala designs. Their smooth finish and flawless shine add depth, elegance, and a striking reflective effect to any artwork. Whether you&apos;re designing wall panels, decorative frames, or handcrafted home decor, these mirrors bring a professional touch and elevate the overall aesthetic. Perfect for artists, hobbyists, and craft enthusiasts looking to add brilliance and sophistication to their creations.</description>
+      <link>https://www.imalag.com/product/158</link>
+      <g:image_link>https://www.imalag.com/images/products/LTikaShapeMirror.png</g:image_link>
+      <g:price>99.00 INR</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Archana Lippan Art Gallery</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>raw</g:product_type>
+    </item>
+  </channel>
+</rss>

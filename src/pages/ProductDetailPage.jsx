@@ -1,30 +1,59 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import products from "@/data/productsData";
 import { FaWhatsapp } from "react-icons/fa";
+import SEO from "@/components/SEO";
 
 const ProductDetailPage = () => {
   const { id } = useParams();
   const product = products.find((p) => String(p.id) === String(id));
+  const siteOrigin =
+    typeof window !== "undefined" ? window.location.origin : "https://www.imalag.com";
+  const images =
+    product && product.images && product.images.length > 0
+      ? product.images
+      : product
+        ? [product.image]
+        : [];
+  const [mainImage, setMainImage] = useState("");
+
+  useEffect(() => {
+    setMainImage(images[0] || "");
+  }, [id, images]);
 
   if (!product) {
     return (
       <div className="flex flex-col items-center justify-center py-20">
+        <SEO
+          title="Product Not Found"
+          description="The requested product could not be found."
+          url={`https://www.imalag.com/product/${id}`}
+          noindex
+        />
         <h2 className="text-2xl font-bold mb-4">Product Not Found</h2>
         <p className="text-gray-600">The product you are looking for doesn’t exist.</p>
       </div>
     );
   }
 
-  const images =
-    product.images && product.images.length > 0
-      ? product.images
-      : [product.image];
-
-  const [mainImage, setMainImage] = useState(images[0]);
+  const seoPrice = Number(String(product.price || "").replace(/[^\d.]/g, ""));
 
   return (
     <div className="max-w-6xl mx-auto p-6">
+      <SEO
+        title={product.title}
+        description={product.description}
+        image={`${siteOrigin}${product.image.startsWith('/') ? product.image : `/${product.image}`}`}
+        url={`https://www.imalag.com/product/${product.id}`}
+        type="product"
+        product={{
+          name: product.title,
+          description: product.description,
+          image: `${siteOrigin}${product.image.startsWith('/') ? product.image : `/${product.image}`}`,
+          price: Number.isFinite(seoPrice) ? seoPrice : undefined,
+          stock: product.stock ?? 1,
+        }}
+      />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
         {/* LEFT: IMAGES */}

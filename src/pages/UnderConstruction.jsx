@@ -7,7 +7,7 @@ const UnderConstruction = () => {
       <SEO
         title="Under Construction"
         description="This page is currently being prepared."
-        url="https://imalag.com/under-construction"
+        url="https://www.imalag.com/under-construction"
         noindex
       />
       <h1>🚧 Under Construction 🚧</h1>
