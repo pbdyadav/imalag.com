@@ -14,41 +14,41 @@ body {
   display: flex; 
   justify-content: center;
   align-items: center;
-  font-family: 'Segoe UI', Arial, sans-serif; 
-  /* Lippan Art Background Image (3.png from public folder) */
-  background: url('/3.png') no-repeat center center fixed;
-  background-size: cover;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif; 
+  
+  /* Mobile-first 9:16 Vertical background scaling */
+  background: url('/3.png') center top / cover no-repeat fixed;
   color: #3b1c0c;
   position: relative;
   overflow-x: hidden;
+  padding: 20px 0;
 }
 
-/* Background overlay for smooth contrast */
+/* Background overlay to keep contrast high */
 body::before {
   content: '';
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(253, 250, 245, 0.25);
+  background: rgba(253, 250, 245, 0.2);
   z-index: 0;
 }
 
-/* Main Container Box */
+/* Main Container Box - Larger and Prominent */
 main { 
   position: relative;
   z-index: 2;
-  width: min(620px, 92vw); 
-  padding: 38px 24px 40px; 
-  margin: 30px 0;
+  width: min(650px, 94vw); 
+  padding: 36px 22px; 
   text-align: center; 
-  background: rgba(255, 252, 247, 0.82);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: rgba(255, 253, 249, 0.90);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border-radius: 28px;
-  border: 1.5px solid rgba(184, 134, 71, 0.4);
-  box-shadow: 0 15px 35px rgba(80, 45, 15, 0.12), inset 0 0 15px rgba(255,255,255,0.8);
+  border: 2px solid rgba(184, 134, 71, 0.5);
+  box-shadow: 0 20px 45px rgba(60, 30, 10, 0.2), inset 0 0 20px rgba(255,255,255,0.9);
 }
 
-/* Hanging Lamps Styling */
+/* Hanging Lamps */
 .lamp {
   position: fixed;
   top: 0;
@@ -56,69 +56,76 @@ main {
   pointer-events: none;
   filter: drop-shadow(2px 8px 10px rgba(80, 40, 10, 0.25));
 }
-.lamp-left { left: 3%; width: 75px; }
-.lamp-right { right: 3%; width: 90px; }
+.lamp-left { left: 2%; width: 70px; }
+.lamp-right { right: 2%; width: 82px; }
 
+/* Mobile Optimizations - Bigger fonts & full-width cards */
 @media (max-width: 600px) {
-  .lamp-left { left: 1%; width: 48px; }
-  .lamp-right { right: 1%; width: 58px; }
-  main { padding: 28px 16px 30px; }
+  .lamp-left { left: -5px; width: 45px; }
+  .lamp-right { right: -5px; width: 52px; }
+  main { 
+    width: 95vw; 
+    padding: 26px 14px; 
+    border-radius: 22px;
+  }
 }
 
 .logo { 
-  max-width: 250px; 
-  width: 70%; 
-  margin: 0 auto 10px; 
+  max-width: 270px; 
+  width: 75%; 
+  margin: 0 auto 12px; 
   display: block;
-  filter: drop-shadow(0 4px 8px rgba(70,30,10,0.15));
+  filter: drop-shadow(0 4px 10px rgba(70,30,10,0.18));
 }
 
 h1 { 
-  margin: 10px 0 4px; 
-  font-size: 26px; 
-  color: #4a2110; 
-  font-weight: 700;
+  margin: 12px 0 6px; 
+  font-size: 28px; 
+  color: #3d1a0a; 
+  font-weight: 800;
   letter-spacing: 0.5px;
 }
 
 p { 
-  color: #7a4f32; 
-  margin: 0 0 24px; 
-  font-size: 16px;
-  font-weight: 600;
+  color: #6e4123; 
+  margin: 0 0 26px; 
+  font-size: 17px;
+  font-weight: 700;
 }
 
-/* Link Cards */
+/* Link Cards - Increased padding & readable fonts */
 .link-card {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   text-decoration: none; 
-  color: #3b1c0c;
-  border: 1.5px solid #c48b55; 
+  color: #331607;
+  border: 1.8px solid #b87a43; 
   border-radius: 18px;
-  padding: 14px 20px; 
+  padding: 16px 20px; 
   margin: 14px 0;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(248, 240, 228, 0.9));
-  font-size: 18px; 
-  font-weight: 600;
-  box-shadow: 0 4px 12px rgba(120, 70, 30, 0.08);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(248, 238, 224, 0.95));
+  font-size: 19px; 
+  font-weight: 700;
+  box-shadow: 0 5px 15px rgba(90, 45, 15, 0.12);
   transition: all 0.25s ease;
   text-align: left;
+  cursor: pointer;
 }
 
-.link-card:hover { 
-  border-color: #8c4a1b; 
+.link-card:hover, .link-card:active { 
+  border-color: #7a3a0e; 
   transform: translateY(-2px); 
-  box-shadow: 0 8px 20px rgba(120, 70, 30, 0.18);
+  box-shadow: 0 8px 22px rgba(90, 45, 15, 0.22);
   background: #ffffff;
 }
 
 .icon {
-  font-size: 22px;
+  font-size: 24px;
   margin-right: 14px;
-  width: 32px;
+  width: 34px;
   text-align: center;
+  flex-shrink: 0;
 }
 
 .link-text {
@@ -127,17 +134,17 @@ p {
 }
 
 .link-text .sub {
-  font-size: 13px;
-  color: #8a5a38;
-  font-weight: 500;
-  margin-top: 2px;
+  font-size: 14px;
+  color: #7a4f32;
+  font-weight: 600;
+  margin-top: 3px;
 }
 
 .small { 
   font-size: 14px; 
-  color: #7d573c; 
-  margin-top: 26px; 
-  font-weight: 700;
+  color: #6e4123; 
+  margin-top: 28px; 
+  font-weight: 800;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
@@ -145,7 +152,7 @@ p {
 </head>
 <body>
 
-<!-- Left Hanging Lamp (SVG) -->
+<!-- Left Hanging Lamp -->
 <svg class="lamp lamp-left" viewBox="0 0 100 280" fill="none" xmlns="http://www.w3.org/2000/svg">
   <line x1="50" y1="0" x2="50" y2="120" stroke="#8c531e" stroke-width="2.5" stroke-dasharray="4 2"/>
   <path d="M35 120 L65 120 L75 140 L25 140 Z" fill="#8c531e"/>
@@ -155,7 +162,7 @@ p {
   <path d="M50 203 L50 240 M42 225 L50 240 L58 225" stroke="#8c531e" stroke-width="2.5"/>
 </svg>
 
-<!-- Right Hanging Lamp (SVG) -->
+<!-- Right Hanging Lamp -->
 <svg class="lamp lamp-right" viewBox="0 0 100 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <line x1="50" y1="0" x2="50" y2="150" stroke="#8c531e" stroke-width="2.5" stroke-dasharray="4 2"/>
   <circle cx="50" cy="155" r="6" fill="#8c531e"/>
@@ -171,11 +178,12 @@ p {
   <h1>Archana Lippan Art Gallery</h1>
   <p>Connect with us</p>
 
-  <a href="tel:+919893137595" class="link-card">
-    <span class="icon">📞</span>
+  <!-- Auto Save Contact Link -->
+  <a href="#" onclick="saveContact(event)" class="link-card">
+    <span class="icon">👤</span>
     <div class="link-text">
-      <span>Contact — Archana Yadav</span>
-      <span class="sub">+91 9893137595</span>
+      <span>Save Contact — Archana Yadav</span>
+      <span class="sub">+91 9893137595 • Tap to Save Contact</span>
     </div>
   </a>
 
@@ -229,6 +237,33 @@ p {
 
   <div class="small">One QR • All Links</div>
 </main>
+
+<script>
+// Function to generate and download vCard automatically
+function saveContact(event) {
+  event.preventDefault();
+  
+  const vCardData = `BEGIN:VCARD
+VERSION:3.0
+N:Yadav;Archana;;;
+FN:Archana Yadav
+ORG:Archana Lippan Art Gallery
+TEL;TYPE=CELL,VOICE:+919893137595
+URL:https://www.imalag.com
+END:VCARD`;
+
+  const blob = new Blob([vCardData], { type: 'text/vcard;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  
+  const a = document.createElement('a');
+  a.href = url;
+  a.setAttribute('download', 'Archana_Yadav_ALAG.vcf');
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
 
 </body>
 </html>
