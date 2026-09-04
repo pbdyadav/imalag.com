@@ -14,31 +14,37 @@ body {
   display: flex; 
   justify-content: center;
   align-items: center;
-  font-family: Arial, sans-serif; 
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif; 
   
-  /* Lippan Art Background from public folder */
+  /* Lippan Art Background */
   background: url('/3.png') center top / cover no-repeat fixed;
-  color: #3b1807;
+  color: #3b1c0c;
   position: relative;
   overflow-x: hidden;
+  padding: 12px 0;
 }
 
-/* Light overlay to make background smooth */
 body::before {
   content: '';
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(253, 250, 245, 0.15);
   z-index: 0;
 }
 
-/* Original Main Structure - Max Space Use */
+/* Container Box - Expanded for mobile screens */
 main { 
-  width: min(680px, 92vw); 
-  padding: 34px 0 45px; 
-  text-align: center; 
   position: relative;
   z-index: 2;
+  width: min(650px, 94vw); 
+  padding: 32px 20px; 
+  text-align: center; 
+  background: rgba(255, 253, 249, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 26px;
+  border: 1.5px solid rgba(184, 134, 71, 0.45);
+  box-shadow: 0 15px 40px rgba(60, 30, 10, 0.18);
 }
 
 /* Hanging Lamps */
@@ -47,67 +53,171 @@ main {
   top: 0;
   z-index: 3;
   pointer-events: none;
-  filter: drop-shadow(2px 6px 8px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(2px 6px 8px rgba(80, 40, 10, 0.2));
 }
 .lamp-left { left: 2%; width: 65px; }
 .lamp-right { right: 2%; width: 75px; }
 
+/* Mobile Optimizations - Takes full width and heights gracefully */
+/* Mobile Full-Screen Optimization */
 @media (max-width: 600px) {
-  .lamp-left { left: 0; width: 42px; }
-  .lamp-right { right: 0; width: 48px; }
+  body {
+    min-height: 100dvh;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0;
+    background-position: center top;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+
+  .lamp-left {
+    left: -2px;
+    width: 48px;
+  }
+
+  .lamp-right {
+    right: -2px;
+    width: 54px;
+  }
+
+  main {
+    width: 100%;
+    min-height: 100dvh;
+    margin: 0;
+    padding: 42px 18px 30px;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .logo {
+    max-width: 260px;
+    width: 72%;
+    margin: 10px auto 14px;
+  }
+
+  h1 {
+    margin: 8px 0 6px;
+    font-size: 24px;
+    line-height: 1.25;
+  }
+
+  p {
+    margin: 0 0 22px;
+    font-size: 16px;
+  }
+
+  .link-card {
+    width: 100%;
+    min-height: 68px;
+    padding: 15px 16px;
+    margin: 8px 0;
+    border-radius: 15px;
+    font-size: 17px;
+  }
+
+  .icon {
+    font-size: 25px;
+    width: 34px;
+    margin-right: 12px;
+  }
+
+  .link-text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .link-text .sub {
+    font-size: 13px;
+    line-height: 1.35;
+  }
+
+  .small {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
 }
 
 .logo { 
-  max-width: 260px; 
-  width: 65%; 
-  margin: 0 auto 12px; 
+  max-width: 280px; 
+  width: 80%; 
+  margin: 0 auto 10px; 
   display: block;
-  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
+  filter: drop-shadow(0 4px 8px rgba(70,30,10,0.15));
 }
 
 h1 { 
-  margin: 8px 0 5px; 
+  margin: 10px 0 4px; 
   font-size: 26px; 
-  color: #2b1103;
-  font-weight: bold;
-  text-shadow: 0 1px 2px rgba(255,255,255,0.8);
+  color: #3d1a0a; 
+  font-weight: 800;
 }
 
 p { 
-  color: #57270a; 
-  margin: 0 0 24px; 
-  font-weight: bold;
-  font-size: 17px;
+  color: #6e4123; 
+  margin: 0 0 20px; 
+  font-size: 16px;
+  font-weight: 700;
 }
 
-/* Buttons using full available width & high contrast */
-a {
-  display: block; 
+/* Link Cards Layout */
+.link-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   text-decoration: none; 
-  color: #f7ead7;
-  border: 1.5px solid #a86c32; 
+  color: #331607;
+  border: 1.5px solid #b87a43; 
   border-radius: 16px;
-  padding: 17px 20px; 
+  padding: 14px 18px; 
   margin: 12px 0;
-  background: linear-gradient(135deg, #2e170a, #1a0b03);
-  font-size: 19px; 
-  font-weight: 600;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(248, 238, 224, 0.95));
+  font-size: 18px; 
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(90, 45, 15, 0.08);
   transition: all 0.2s ease;
+  text-align: left;
 }
 
-a:hover, a:active { 
-  border-color: #e0a45a; 
+.link-card:hover, .link-card:active { 
+  border-color: #7a3a0e; 
   transform: translateY(-1px); 
-  background: linear-gradient(135deg, #3b1e0d, #240e04);
+  background: #ffffff;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 14px;
+  width: 32px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.link-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-text .sub {
+  font-size: 13.5px;
+  color: #7a4f32;
+  font-weight: 600;
+  margin-top: 2px;
 }
 
 .small { 
-  font-size: 14px; 
-  color: #57270a; 
-  margin-top: 24px; 
-  font-weight: bold;
-  letter-spacing: 1px;
+  font-size: 13px; 
+  color: #6e4123; 
+  margin-top: 22px; 
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 </style>
 </head>
@@ -139,13 +249,62 @@ a:hover, a:active {
   <h1>Archana Lippan Art Gallery</h1>
   <p>Connect with us</p>
 
-  <a href="tel:+919893137595">📞 Contact — Archana Yadav<br>+91 9893137595</a>
-  <a href="https://wa.me/919893137595">💬 WhatsApp</a>
-  <a href="https://www.instagram.com/imalag_art/">📸 Instagram — @imalag_art</a>
-  <a href="https://www.facebook.com/archana.yadav.990114">👍 Facebook</a>
-  <a href="https://www.youtube.com/@ALAG-art">▶️ YouTube — @ALAG-art</a>
-  <a href="https://maps.app.goo.gl/rhJKZnEBUVbPAtzc6">📍 Google Maps</a>
-  <a href="https://www.imalag.com">🌐 Website — www.imalag.com</a>
+  <!-- Opens Dialer Directly to Add Contact or Call -->
+  <a href="tel:+919893137595" class="link-card">
+    <span class="icon">📞</span>
+    <div class="link-text">
+      <span>Contact — Archana Yadav</span>
+      <span class="sub">+91 9893137595 • Tap to Call or Save Number</span>
+    </div>
+  </a>
+
+  <a href="https://wa.me/919893137595" class="link-card">
+    <span class="icon">💬</span>
+    <div class="link-text">
+      <span>WhatsApp</span>
+      <span class="sub">Chat with us on WhatsApp</span>
+    </div>
+  </a>
+
+  <a href="https://www.instagram.com/imalag_art/" class="link-card">
+    <span class="icon">📸</span>
+    <div class="link-text">
+      <span>Instagram</span>
+      <span class="sub">@imalag_art</span>
+    </div>
+  </a>
+
+  <a href="https://www.facebook.com/archana.yadav.990114" class="link-card">
+    <span class="icon">👍</span>
+    <div class="link-text">
+      <span>Facebook</span>
+      <span class="sub">archana.yadav.990114</span>
+    </div>
+  </a>
+
+  <a href="https://www.youtube.com/@ALAG-art" class="link-card">
+    <span class="icon">▶️</span>
+    <div class="link-text">
+      <span>YouTube</span>
+      <span class="sub">@ALAG-art</span>
+    </div>
+  </a>
+
+  <a href="https://maps.app.goo.gl/rhJKZnEBUVbPAtzc6" class="link-card">
+    <span class="icon">📍</span>
+    <div class="link-text">
+      <span>Google Maps</span>
+      <span class="sub">Find us on Google Maps</span>
+    </div>
+  </a>
+
+  <a href="https://www.imalag.com" class="link-card">
+    <span class="icon">🌐</span>
+    <div class="link-text">
+      <span>Website</span>
+      <span class="sub">www.imalag.com</span>
+    </div>
+  </a>
 
   <div class="small">One QR • All Links</div>
 </main>
