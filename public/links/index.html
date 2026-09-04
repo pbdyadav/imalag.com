@@ -59,88 +59,18 @@ main {
 .lamp-right { right: 2%; width: 75px; }
 
 /* Mobile Optimizations - Takes full width and heights gracefully */
-/* Mobile Full-Screen Optimization */
 @media (max-width: 600px) {
   body {
-    min-height: 100dvh;
-    width: 100%;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 0;
-    background-position: center top;
-    background-size: cover;
-    overflow-x: hidden;
+    align-items: flex-start; /* Container starts higher up */
+    padding: 10px 0;
   }
-
-  .lamp-left {
-    left: -2px;
-    width: 48px;
-  }
-
-  .lamp-right {
-    right: -2px;
-    width: 54px;
-  }
-
-  main {
-    width: 100%;
-    min-height: 100dvh;
-    margin: 0;
-    padding: 42px 18px 30px;
-    border-radius: 0;
-    border-left: none;
-    border-right: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-
-  .logo {
-    max-width: 260px;
-    width: 72%;
-    margin: 10px auto 14px;
-  }
-
-  h1 {
-    margin: 8px 0 6px;
-    font-size: 24px;
-    line-height: 1.25;
-  }
-
-  p {
-    margin: 0 0 22px;
-    font-size: 16px;
-  }
-
-  .link-card {
-    width: 100%;
-    min-height: 68px;
-    padding: 15px 16px;
-    margin: 8px 0;
-    border-radius: 15px;
-    font-size: 17px;
-  }
-
-  .icon {
-    font-size: 25px;
-    width: 34px;
-    margin-right: 12px;
-  }
-
-  .link-text {
-    flex: 1;
-    min-width: 0;
-  }
-
-  .link-text .sub {
-    font-size: 13px;
-    line-height: 1.35;
-  }
-
-  .small {
-    margin-top: 20px;
-    margin-bottom: 5px;
-    font-size: 12px;
+  .lamp-left { left: -2px; width: 42px; }
+  .lamp-right { right: -2px; width: 48px; }
+  main { 
+    width: 95vw; 
+    padding: 24px 14px; 
+    border-radius: 20px;
+    margin-top: 5px;
   }
 }
 
