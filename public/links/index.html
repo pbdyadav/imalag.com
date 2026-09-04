@@ -16,36 +16,36 @@ body {
   align-items: center;
   font-family: 'Segoe UI', Roboto, Arial, sans-serif; 
   
-  /* Mobile-first 9:16 Vertical background scaling */
+  /* Lippan Art Background */
   background: url('/3.png') center top / cover no-repeat fixed;
   color: #3b1c0c;
   position: relative;
   overflow-x: hidden;
-  padding: 20px 0;
+  padding: 16px 0;
 }
 
-/* Background overlay to keep contrast high */
+/* Light overlay for smooth text reading */
 body::before {
   content: '';
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(253, 250, 245, 0.2);
+  background: rgba(253, 250, 245, 0.22);
   z-index: 0;
 }
 
-/* Main Container Box - Larger and Prominent */
+/* Balanced Main Container */
 main { 
   position: relative;
   z-index: 2;
-  width: min(650px, 94vw); 
-  padding: 36px 22px; 
+  width: min(520px, 92vw); 
+  padding: 26px 18px; 
   text-align: center; 
-  background: rgba(255, 253, 249, 0.90);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-radius: 28px;
-  border: 2px solid rgba(184, 134, 71, 0.5);
-  box-shadow: 0 20px 45px rgba(60, 30, 10, 0.2), inset 0 0 20px rgba(255,255,255,0.9);
+  background: rgba(255, 253, 249, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 22px;
+  border: 1.5px solid rgba(184, 134, 71, 0.45);
+  box-shadow: 0 12px 35px rgba(60, 30, 10, 0.16);
 }
 
 /* Hanging Lamps */
@@ -54,76 +54,79 @@ main {
   top: 0;
   z-index: 3;
   pointer-events: none;
-  filter: drop-shadow(2px 8px 10px rgba(80, 40, 10, 0.25));
+  filter: drop-shadow(2px 6px 8px rgba(80, 40, 10, 0.2));
 }
-.lamp-left { left: 2%; width: 70px; }
-.lamp-right { right: 2%; width: 82px; }
+.lamp-left { left: 2%; width: 55px; }
+.lamp-right { right: 2%; width: 65px; }
 
-/* Mobile Optimizations - Bigger fonts & full-width cards */
+/* Mobile View Adjustments */
 @media (max-width: 600px) {
-  .lamp-left { left: -5px; width: 45px; }
-  .lamp-right { right: -5px; width: 52px; }
+  body {
+    padding: 10px 0;
+  }
+  .lamp-left { left: -2px; width: 38px; }
+  .lamp-right { right: -2px; width: 44px; }
   main { 
-    width: 95vw; 
-    padding: 26px 14px; 
-    border-radius: 22px;
+    width: min(480px, 92vw); 
+    padding: 22px 14px; 
+    border-radius: 18px;
   }
 }
 
 .logo { 
-  max-width: 270px; 
-  width: 75%; 
-  margin: 0 auto 12px; 
+  max-width: 210px; 
+  width: 65%; 
+  margin: 0 auto 8px; 
   display: block;
-  filter: drop-shadow(0 4px 10px rgba(70,30,10,0.18));
+  filter: drop-shadow(0 3px 6px rgba(70,30,10,0.15));
 }
 
 h1 { 
-  margin: 12px 0 6px; 
-  font-size: 28px; 
+  margin: 8px 0 4px; 
+  font-size: 22px; 
   color: #3d1a0a; 
   font-weight: 800;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
 }
 
 p { 
   color: #6e4123; 
-  margin: 0 0 26px; 
-  font-size: 17px;
+  margin: 0 0 18px; 
+  font-size: 14px;
   font-weight: 700;
 }
 
-/* Link Cards - Increased padding & readable fonts */
+/* Sleek Link Cards */
 .link-card {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   text-decoration: none; 
   color: #331607;
-  border: 1.8px solid #b87a43; 
-  border-radius: 18px;
-  padding: 16px 20px; 
-  margin: 14px 0;
+  border: 1.5px solid #c48b55; 
+  border-radius: 14px;
+  padding: 12px 16px; 
+  margin: 10px 0;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(248, 238, 224, 0.95));
-  font-size: 19px; 
+  font-size: 16px; 
   font-weight: 700;
-  box-shadow: 0 5px 15px rgba(90, 45, 15, 0.12);
-  transition: all 0.25s ease;
+  box-shadow: 0 3px 10px rgba(90, 45, 15, 0.08);
+  transition: all 0.2s ease;
   text-align: left;
   cursor: pointer;
 }
 
 .link-card:hover, .link-card:active { 
   border-color: #7a3a0e; 
-  transform: translateY(-2px); 
-  box-shadow: 0 8px 22px rgba(90, 45, 15, 0.22);
+  transform: translateY(-1px); 
+  box-shadow: 0 5px 15px rgba(90, 45, 15, 0.16);
   background: #ffffff;
 }
 
 .icon {
-  font-size: 24px;
-  margin-right: 14px;
-  width: 34px;
+  font-size: 20px;
+  margin-right: 12px;
+  width: 28px;
   text-align: center;
   flex-shrink: 0;
 }
@@ -134,18 +137,18 @@ p {
 }
 
 .link-text .sub {
-  font-size: 14px;
+  font-size: 12.5px;
   color: #7a4f32;
   font-weight: 600;
-  margin-top: 3px;
+  margin-top: 2px;
 }
 
 .small { 
-  font-size: 14px; 
+  font-size: 12px; 
   color: #6e4123; 
-  margin-top: 28px; 
+  margin-top: 20px; 
   font-weight: 800;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
   text-transform: uppercase;
 }
 </style>
@@ -178,7 +181,7 @@ p {
   <h1>Archana Lippan Art Gallery</h1>
   <p>Connect with us</p>
 
-  <!-- Auto Save Contact Link -->
+  <!-- Save Contact Link -->
   <a href="#" onclick="saveContact(event)" class="link-card">
     <span class="icon">👤</span>
     <div class="link-text">
